@@ -1,0 +1,19 @@
+@import "tailwindcss";
+.home-page {
+    background-color: #0b0f2f;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-25%);
+  }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 4.5s linear infinite;
+}
