@@ -122,17 +122,17 @@ function Home() {
 
 <section className="w-full overflow-hidden py-4 my-6 border-t-2 border-b-2 border-white bg-transparent  flex">
   <div className="flex whitespace-nowrap animate-marquee">
-    <span className="mx-12 text-2xl font-extrabold tracking-widest bg-gradient-to-r from-red-600 via-pink-400 to-blue-700 bg-clip-text text-transparent">
-      MES QUE UN CLUB &#11044;
+    <span className="mx-12 text-5xl font-extrabold tracking-widest bg-gradient-to-r from-red-600 via-pink-400 to-blue-700 bg-clip-text text-transparent">
+      MES QUE UN CLUB <span> &#11044;</span>
     </span>
-    <span className="mx-12 text-2xl font-extrabold tracking-widest bg-gradient-to-r from-red-600 via-pink-400 to-blue-700 bg-clip-text text-transparent">
-      MES QUE UN CLUB &#11044;
+    <span className="mx-12 text-5xl font-extrabold tracking-widest bg-gradient-to-r from-red-600 via-pink-400 to-blue-700 bg-clip-text text-transparent">
+      MES QUE UN CLUB <span> &#11044;</span>
     </span>
-    <span className="mx-12 text-2xl font-extrabold tracking-widest bg-gradient-to-r from-red-600 via-pink-400 to-blue-700 bg-clip-text text-transparent">
-      MES QUE UN CLUB &#11044;
+    <span className="mx-12 text-5xl font-extrabold tracking-widest bg-gradient-to-r from-red-600 via-pink-400 to-blue-700 bg-clip-text text-transparent">
+      MES QUE UN CLUB <span> &#11044;</span>
     </span>
-    <span className="mx-12 text-2xl font-extrabold tracking-widest bg-gradient-to-r from-red-600 via-pink-400 to-blue-700 bg-clip-text text-transparent">
-      MES QUE UN CLUB &#11044;
+    <span className="mx-12 text-5xl font-extrabold tracking-widest bg-gradient-to-r from-red-600 via-pink-400 to-blue-700 bg-clip-text text-transparent">
+      MES QUE UN CLUB <span className="logo"> &#11044;</span>
     </span>
   </div>
 </section>

@@ -32,7 +32,7 @@ const Gifts = () => {
       <h1 className="text-[80px] p-[10px] font-extrabold transition-all duration-500 hover:bg-clip-text hover:text-transparent hover:bg-[linear-gradient(180deg,rgba(255,0,0,1)_3%,rgba(255,143,143,1)_48%,rgba(5,0,158,1)_84%)]">
       GIFTS AND ACCESSORIES
       </h1>
-<div className="border-b-2 border-blue-900"></div>
+  <div className="border-b-2 border-blue-900"></div>
 
       {/* PRODUCTS */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-4 gap-y-10 px-8 py-10">
@@ -64,6 +64,9 @@ const Gifts = () => {
               <p className="text-[15px] font-bold text-black pt-1">
                 {product.price}
               </p>
+               <button className="mt-2 bg-blue-900 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors">
+                Add to Cart
+              </button>
             </div>
           </div>
         ))}

@@ -19,8 +19,7 @@ const BestSellersProducts = () => {
               <p className="text-gray-600">$99</p>
             </div>
           </div>
-
-          {/* burdan aşağı məhsulları map ilə çoxalda bilərsən */}
+          
         </div>
       </div>
     </section>

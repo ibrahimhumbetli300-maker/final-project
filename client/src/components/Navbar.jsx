@@ -64,11 +64,7 @@ const Navbar = () => {
 
         {/* RIGHT ICONS */}
         <div className="flex items-center gap-6 relative">
-          {/* LANGUAGE */}
-          <div className="flex items-center gap-2 cursor-pointer group">
-            <img src="https://flagcdn.com/w20/es.png" alt="ES" className="w-5 h-auto" />
-            <span className="text-xs font-bold group-hover:text-yellow-400 uppercase">en</span>
-          </div>
+       
 
           {/* SEARCH ICON */}
           <div className="relative">
@@ -117,7 +113,7 @@ const Navbar = () => {
           </div>
 
       
-          <Link to="/cart" className="hover:text-yellow-400 transition-colors">
+          <Link to="/basket" className="hover:text-yellow-400 transition-colors">
             <FaShoppingBag size={18} />
           </Link>
         </div>

@@ -11,6 +11,7 @@ import Login from "../pages/Login";
 import Register from "../pages/Register";
 import Kids from "../pages/Kids";
 import Men from "../pages/Men";
+import Basket from "../pages/Basket";
 
 const AppRoutes = () => {
   return (
@@ -27,6 +28,11 @@ const AppRoutes = () => {
         <Route path="/register" element={<Register />} />
         <Route path="/men" element={<Men />} />
         <Route path="/kids" element={<Kids />} />
+        <Route
+          path="*"
+          element={<h1 className="text-center py-20">404 - Page Not Found</h1>}
+        />
+       <Route path="/basket" element={<Basket />} />
       </Route>
     </Routes>
   );

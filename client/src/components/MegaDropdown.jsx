@@ -42,7 +42,6 @@ const MegaDropdown = ({ type }) => {
   return (
     <div className="w-full bg-[#0b0f2f] text-white py-12 min-h-[350px]">
       <div className="max-w-[1400px] mx-auto px-6">
-        {/* Sabit 5 Sütunlu Grid */}
         <div className="grid grid-cols-5 gap-12 text-[13px] uppercase tracking-wider">
           {columns.map((col, index) => (
             <div key={index} className="flex flex-col gap-8">

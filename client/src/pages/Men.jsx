@@ -64,6 +64,9 @@ const Men = () => {
               <p className="text-[15px] font-bold text-black pt-1">
                 {product.price}
               </p>
+               <button className="mt-2 bg-blue-900 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors">
+                Add to Cart
+              </button>
             </div>
           </div>
         ))}

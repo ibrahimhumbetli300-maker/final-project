@@ -23,12 +23,17 @@
       "email": "barselona1899@gmail.com",
       "password": "12345",
       "agree": false
+    },
+    {
+      "id": "ef3b",
+      "firstName": "BARAKA",
+      "lastName": "IBRAHIM",
+      "email": "barakaibrahim041@gmail.com",
+      "password": "barakacombat041",
+      "agree": false
     }
   ],
-
-  
-
-   "bestsellers": [
+  "bestsellers": [
     {
       "id": "1",
       "tag": "PLAYER'S SELECTION",
@@ -58,8 +63,7 @@
       "price": "€134,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/pedri-ucl_fe2c2d3d-ef36-45c8-93d8-80a01e00910a.webp?v=1752566115"
     },
-    
-        {
+    {
       "id": "5",
       "tag": "BARÇA EXCLUSİVE",
       "category": "RETRO COLLECTION",
@@ -67,62 +71,62 @@
       "price": "€59,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/Bolet_Baixa-11795.jpg?v=1765970839&width=1200"
     },
-         {
+    {
       "id": "6",
       "category": "STADIUM COLLECTION",
       "name": "Tee retro Spotify Camp Nou",
       "price": "€29,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/CORE-II4082_391dac34-f71d-4453-acdc-51b48962fdaf.jpg?v=1740042048&width=1200"
     },
-         {
+    {
       "id": "7",
       "category": "STADIUM COLLECTION",
       "name": "Sweatshirt Retro Navy 1899 - FC Barcelona",
       "price": "€79,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/Retro_Players_Baixa-8064.jpg?v=1763462853&width=1200"
     },
-         {
+    {
       "id": "8",
       "category": "STADIUM COLLECTION",
       "name": "Sweatshirt Retro 1899",
       "price": "€79,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/IMG_6325.jpg?v=1737554661&width=1200"
     },
-         {
+    {
       "id": "9",
       "category": "STADIUM COLLECTION",
       "name": "Net Original Spotify Camp Nou FC Barcelona",
       "price": "€79,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/76079_1.jpg?v=1765888308&width=1200"
     },
-         {
+    {
       "id": "10",
       "category": "STADIUM COLLECTION",
       "name": "UCL Men's away jersey 25/26 FC Barcelona x Kobe Bryant",
       "price": "€114,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/HJ4603-784_431735711_D_A_1X1_48cfc706-a037-4073-aa5a-8abbde823c12.jpg?v=1753951926&width=1200"
     },
-         {
+    {
       "id": "11",
       "category": "MATCH COLLECTION",
       "name": "UCL Men's away jersey 25/26 FC Barcelona x Kobe Bryant - Player's Edition",
       "price": "€149,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/TrioBanner-AwayKit26-Balde_Gavi_6b63d094-9292-4d22-b4fd-6f43e7553c48.jpg?v=1753762193&width=1200"
     },
-         {
+    {
       "id": "12",
       "category": "STADIUM COLLECTION",
       "name": "LAMINE YAMAL | UCL Men's away jersey 25/26 FC Barcelona x Kobe Bryant - Player's Edition",
       "price": "€189,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/VO251126A93853_med.jpg?v=1765876268"
     },
-         {
+    {
       "id": "13",
       "name": "Lamine Yamal Card FC Barcelona",
       "price": "€29,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/76037_3.jpg?v=1763114873&width=1200"
     },
-         {
+    {
       "id": "14",
       "tag": "PLAYER'S SELECTION",
       "category": "MATCH COLLECTION",
@@ -130,51 +134,46 @@
       "price": "€184,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/VO250926A56875_med_bbe4b6d5-7db6-465e-910a-0ff9b51791d0.jpg?v=1758880261"
     },
-         {
+    {
       "id": "15",
       "name": "Pedri Card FC Barcelona",
       "price": "€29,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/76035_3.jpg?v=1763114806&width=1200"
     },
-
-         {
+    {
       "id": "16",
       "name": "Hoodie express away FC Barcelona x Kobe Bryant Nike",
       "price": "€89,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/PHSFMG01-2000_73062da1-8dc1-4c1a-bc28-21fd82dd6aa6.jpg?v=1762763144&width=1200"
     },
-
-           {
+    {
       "id": "17",
       "name": "Pant express away FC Barcelona x Kobe Bryant Nike",
       "price": "€84,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/PHSYMG01-2000_ad3f5113-e8d3-4b98-8a04-0e7a4ac4955b.jpg?v=1762761527&width=1200"
     },
-
-          {
+    {
       "id": "18",
       "name": "FC Barcelona x Kobe Bryant away training coach sweatshirt 25/26",
       "price": "€69,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/VO250923A56021_med.jpg?v=1762862570&width=1200"
     },
-     {
+    {
       "id": "19",
       "name": "Training Coach Shirt away FC Barcelona x Kobe Bryant 25/26",
       "price": "€49,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/IO4251-084_1.jpg?v=1763478699&width=1200"
     },
-         {
+    {
       "id": "20",
       "name": "Miniature Spotify Camp Nou",
       "price": "€44,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/FotosMaqueta-2.jpg?v=1763466576&width=1200"
     }
-
   ],
-
-   "kits": [
+  "kits": [
     {
-      "id": "1",      
+      "id": "1",
       "tag": "BARÇA EXCLUSİVE",
       "name": "Victory Tee Winners Supercup FC Barcelona 2026",
       "price": "€39,99 EUR",
@@ -201,47 +200,46 @@
       "price": "€149,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/VO260108A14350_med.jpg?v=1767873691"
     },
-    
-        {
+    {
       "id": "5",
       "category": "PLAYER COLLECTION",
       "name": "UCL Junior fourth jersey 25/26 FC Barcelona",
       "price": "€79,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/FZ1307-432-PHSFMG01.jpg?v=1763537950"
     },
-         {
+    {
       "id": "6",
       "name": "Junior Fourth Short FC Barcelona 25/26",
       "price": "€39,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/Disenosintitulo_57.jpg?v=1763562158&width=1200"
     },
-         {
+    {
       "id": "7",
       "category": "STADIUM COLLECTION",
       "name": "Younger kids fourth kit FC Barcelona 25/26",
       "price": "€69,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/Disenosintitulo_58.jpg?v=1763562590&width=1200"
     },
-         {
+    {
       "id": "8",
       "category": "STADIUM COLLECTION",
       "name": "Baby's fourth kit FC Barcelona 25/26",
       "price": "€64,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/FZ1333-432_6.jpg?v=1763536043&width=1200"
     },
-         {
+    {
       "id": "9",
       "name": "FC Barcelona fourth kit socks 25/26",
       "price": "€19,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/HQ1930-431_1.jpg?v=1763478029&width=1200"
     },
-         {
+    {
       "id": "10",
       "name": "FC Barcelona home short 25/26",
       "price": "€49,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/20_11edcba9-f63c-4e4e-89f2-19aac0effe95.jpg?v=1753180328&width=1200"
     },
-         {
+    {
       "id": "11",
       "category": "STADIUM COLLECTION",
       "tag": "5-15 YEARS",
@@ -249,21 +247,21 @@
       "price": "€94,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/11_5c73d540-2a6a-4bd3-9ed0-54e4f2e83eb6.jpg?v=1763716638&width=1200"
     },
-         {
+    {
       "id": "12",
       "category": "STADIUM COLLECTION",
       "name": "Baby's home kit FC Barcelona 25/26",
       "price": "€64,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/HJ5637-456_415094673_D_A_1X1_b3cee2e6-8bc8-4779-9af0-0f078bb73d18.jpg?v=1751430268&width=1200"
     },
-         {
+    {
       "id": "13",
-      "category":"STADIUM COLLECTION",
+      "category": "STADIUM COLLECTION",
       "name": "Younger kids home kit 25/26 FC Barcelona",
       "price": "€69,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/BARC_A_KIDS_C1_LK_07_2559.jpg?v=1754472663&width=1200"
     },
-         {
+    {
       "id": "14",
       "tag": "PLAYER'S SELECTION",
       "category": "MATCH COLLECTION",
@@ -271,56 +269,51 @@
       "price": "€149,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/nilventura__fcbarcelona-329_1_f941f45c-85c1-4e7c-b19a-adcb39db04aa.jpg?v=1751430716&width=1200"
     },
-         {
+    {
       "id": "15",
       "category": "STADIUM COLLECTION",
-      "tag":"5-15 YEARS",
+      "tag": "5-15 YEARS",
       "name": "UCL Junior away jersey 25/26 FC Barcelona x Kobe Bryant",
       "price": "€94,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/HJ5286-784_412912020_D_D_4X5_2.jpg?v=1753763787&width=1200"
     },
-
-         {
+    {
       "id": "16",
       "name": "Younger kids away kit 25/26 FC Barcelona x Kobe Bryant",
       "price": "€69,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/BARC_A_KIDS_C1_LK_05_2386.jpg?v=1762258364&width=1200"
     },
-
-           {
+    {
       "id": "17",
-      "category":"STADIUM COLLECTION",
+      "category": "STADIUM COLLECTION",
       "name": "UCL Junior goalkeeper away jersey 25/26 FC Barcelona x Kobe Bryant",
       "price": "€84,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/IM0463-511_419308725_D_D_4X5ucl.jpg?v=1753763789&width=1200"
     },
-
-          {
+    {
       "id": "18",
-      "category":"STADIUM COLLECTION",
-      "tag":"5-15 YEARS",
+      "category": "STADIUM COLLECTION",
+      "tag": "5-15 YEARS",
       "name": "UCL Junior third jersey 25/26 FC Barcelona T90",
       "price": "€79,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/Imagen17_637e61f0-52ea-49fd-818e-e065fe1e8b1e.jpg?v=1755588219&width=1200"
     },
-     {
+    {
       "id": "19",
-      "category":"PLAYER SELECTION",
-      "tag":"PLAYER'S SELECTION",
+      "category": "PLAYER SELECTION",
+      "tag": "PLAYER'S SELECTION",
       "name": "UCL Women's third jersey 25/26 FC Barcelona T90 - Player's Edition",
       "price": "€149,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/Imagen21_e61a1976-fe39-4609-8fc8-7c165f3a1f56.jpg?v=1755588593&width=1200"
     },
-         {
+    {
       "id": "20",
       "name": "Younger kids third kit 25/26 FC Barcelona T90",
       "price": "€69,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/HM4134-855_415106079_D_A_1X1_2435a4bf-01aa-4ddd-a2ec-bda9728c78d2.jpg?v=1755580674&width=1200"
     }
-
   ],
-
-   "training": [
+  "training": [
     {
       "id": "1",
       "name": "Anthem jacket fourth Women's FC Barcelona 25/26 - Player's Edition",
@@ -335,7 +328,7 @@
     },
     {
       "id": "3",
-      "tag":"BARÇA EXCLUSİVE",
+      "tag": "BARÇA EXCLUSİVE",
       "name": "Training pants FC Barcelona 25/26 Fourth Kit",
       "price": "€69,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/AURORA_HM6618-431_PHSFM001-2000_1.jpg?v=1767086017&width=1200"
@@ -346,113 +339,107 @@
       "price": "74,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/MGA7394_Easy-Resize.com.jpg?v=1767792437&width=1200"
     },
-    
-        {
+    {
       "id": "5",
       "name": "Training Shirt FC Barcelona 25/26 Fourth Kit",
       "price": "€49,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/AURORA_FZ1350-413_PHSFM001-2000.jpg?v=1767086420&width=1200"
     },
-         {
+    {
       "id": "6",
       "name": "Training Shorts FC Barcelona 25/26 Fourth Kit",
       "price": "€44,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/AURORA_FZ1348-431_PHSYM001-2000.jpg?v=1767086293&width=1200"
     },
-         {
+    {
       "id": "7",
       "name": "Training pants Junior FC Barcelona 25/26 Fourth Kit",
       "price": "€59,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/AURORA_FZ1415-431_PHSFM001-2000_1.jpg?v=1767085915&width=1200"
     },
-         {
+    {
       "id": "8",
-      "tag":"BARÇA EXCLUSİVE",
+      "tag": "BARÇA EXCLUSİVE",
       "name": "Tracksuit Younger Kids FC Barcelona 25/26 Fourth Kit",
       "price": "€74,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/AURORA_FZ1412-431_PHSFM001-2000.jpg?v=1767086463&width=1200"
     },
-         {
+    {
       "id": "9",
       "name": "Women FC Barcelona 25/26 Fourth Kit Training Sweatshirt",
       "price": "€69,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/AURORA_FZ1352-413_PHSFM001-2000.jpg?v=1767086388&width=1200"
     },
-         {
+    {
       "id": "10",
       "name": "Player's training shirt FC Barcelona 25/26",
       "price": "€74,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/VO250930A60488_med.jpg?v=1759308100&width=1200"
     },
-         {
+    {
       "id": "11",
       "name": "Men's jacket tech fleece Barça Nike - Navy",
       "price": "€134,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/587408975_18585312334023674_237200396213230687_n.jpg?v=1764070426&width=1200"
     },
-         {
+    {
       "id": "12",
       "name": "Tracksuit FC Barcelona 25/26",
       "price": "€139,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/VO251103A79838_med.jpg?v=1762353934&width=1200"
     },
-         {
+    {
       "id": "13",
       "name": "Tracksuit FC Barcelona 25/26 - Baby",
       "price": "€64,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/HJ8057-552_419290119_D_A_1X1_8be032ea-b548-4ff8-91ec-a6b864255c05.jpg?v=1751541178&width=1200"
     },
-         {
+    {
       "id": "14",
       "name": "Anthem jacket third FC Barcelona 25/26 T90 - Unisex",
       "price": "€89,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/HM3434-410-PHSFM001.jpg?v=1755522259&width=1200"
     },
-         {
+    {
       "id": "15",
       "name": "Pre-Match sweatshirt FC Barcelona fourth 25/26",
       "price": "€79,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/VO260108A14224_med.jpg?v=1767873457&width=1200"
     },
-
-         {
+    {
       "id": "16",
       "name": "Anthem Junior Jacket Away FC Barcelona x Kobe Bryant 25/26",
       "price": "€74,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/HJ6411-010_1.jpg?v=1753693500&width=1200"
     },
-
-           {
+    {
       "id": "17",
       "name": "Thermafit gloves Barça Nike",
       "price": "€32,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/IH1383-010_2.jpg?v=1760349299&width=1200"
     },
-
-          {
+    {
       "id": "18",
-      "category":"STADIUM COLLECTION",
+      "category": "STADIUM COLLECTION",
       "name": "FC Barcelona anthem jacket home",
       "price": "€89,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/FN9625-455_1.jpg?v=1721120060&width=1200"
     },
-     {
+    {
       "id": "19",
-      "category":"ADVANCED TECH",
+      "category": "ADVANCED TECH",
       "name": "FC Barcelona training sweatshirt 24/25- DRI-FIT ADV",
       "price": "€129,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/VO240731A50518_77e7ebae-2eaa-481f-990a-eca09ed9aa72.jpg?v=1722588835&width=1200"
     },
-         {
+    {
       "id": "20",
       "name": "FC Barcelona x Kobe Bryant away training shirt 25/26 - Player's Edition",
       "price": "€74,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/VO250923A56019_med.jpg?v=1762775928&width=1200"
     }
-
   ],
-
-   "apparel": [
+  "apparel": [
     {
       "id": "1",
       "tag": "BARÇA EXCLUSİVE",
@@ -463,14 +450,14 @@
     {
       "id": "2",
       "category": "RETRO COLLECTION",
-      "tag":"BARÇA EXCLUSİVE",
+      "tag": "BARÇA EXCLUSİVE",
       "name": "Modernist Crop FC Barcelona Polo Oversize - Women",
       "price": "€59,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/Bolet_Baixa-12146.jpg?v=1765970807&width=1200"
     },
     {
       "id": "3",
-      "tag":"BARÇA EXCLUSİVE",
+      "tag": "BARÇA EXCLUSİVE",
       "name": "Bomber Jacket Core - FC Barcelona",
       "price": "€89,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/Bolet_Baixa-10339.jpg?v=1763974475&width=1200"
@@ -481,8 +468,7 @@
       "price": "€29,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/HV5127-431-VPSFH001.jpg?v=1767087413&width=1200"
     },
-    
-        {
+    {
       "id": "5",
       "tag": "BARÇA EXCLUSİVE",
       "category": "RETRO COLLECTION",
@@ -490,108 +476,103 @@
       "price": "€59,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/Bolet_Baixa-11795.jpg?v=1765970839&width=1200"
     },
-         {
+    {
       "id": "6",
       "name": "Jacket Barça Nike",
       "price": "€134,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/MGA1324_Easy-Resize.com.jpg?v=1763387050&width=1200"
     },
-         {
+    {
       "id": "7",
       "category": "STADIUM COLLECTION",
       "name": "Sweatshirt Retro Navy 1899 - FC Barcelona",
       "price": "€79,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/Retro_Players_Baixa-8064.jpg?v=1763462853&width=1200"
     },
-         {
+    {
       "id": "8",
       "category": "STADIUM COLLECTION",
       "name": "Sweatshirt Retro 1899",
       "price": "€79,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/IMG_6325.jpg?v=1737554661&width=1200"
     },
-         {
+    {
       "id": "9",
       "name": "FC Barcelona 1899 Vintage Jacket",
       "price": "€94,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/PLAYERS_DAY_RETRO_0252.jpg?v=1765281265&width=1200"
     },
-         {
+    {
       "id": "10",
       "name": "Vest Barça Nike",
       "price": "€109,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/HM3175-060-PHSFM001.jpg?v=1760704210&width=1200"
     },
-         {
+    {
       "id": "11",
       "name": "Polo crest slim Barça Nike",
       "price": "€69,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/VO250729A22370_med.jpg?v=1753862228&width=1200"
     },
-         {
+    {
       "id": "12",
       "name": "Tee Barça Nike",
       "price": "€29,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/HQ0916-677-PHSFM001.jpg?v=1767087266&width=1200"
     },
-         {
+    {
       "id": "13",
       "name": "Bucket Nike away FC Barcelona x Kobe Bryant 25/26",
       "price": "€34,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/Disenosintitulo_35_80a5e5e4-758a-455b-aab6-675bf4737639.jpg?v=1756896491&width=1200"
     },
-         {
+    {
       "id": "14",
       "tag": "BARÇA EXCLUSİVE",
       "name": "Pant Atemporal Navy Wide - Women",
       "price": "€59,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/FCB_ECOMMERCE_20252085_3d36b0fc-ea9c-4dbc-9dbd-e652ea9cca20.jpg?v=1755785933&width=1200"
     },
-         {
+    {
       "id": "15",
       "name": "Hoodie purple Barça Nike - Women",
       "price": "€74,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/HM3126-595_1.jpg?v=1751011874&width=1200"
     },
-
-         {
+    {
       "id": "16",
       "name": "Hoodie express away FC Barcelona x Kobe Bryant Nike",
       "price": "€89,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/PHSFMG01-2000_73062da1-8dc1-4c1a-bc28-21fd82dd6aa6.jpg?v=1762763144&width=1200"
     },
-
-           {
+    {
       "id": "17",
       "name": "Polo navy crest slim Barça Nike",
       "price": "€69,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/cop.jpg?v=1755683926&width=1200"
     },
-
-          {
+    {
       "id": "18",
-      "tag":"BARÇA EXCLUSİVE",
+      "tag": "BARÇA EXCLUSİVE",
       "name": "Hoodie red Barça-Woman",
       "price": "€69,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/BARCACapsulaAbril24_FOTO42_3755_53324861-d240-4a8c-a948-2d7c28f65b79.jpg?v=1728306634&width=1200"
     },
-     {
+    {
       "id": "19",
       "name": "Parka Jacket Nike FC Barcelona",
       "price": "€219,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/VO251124A91376_med.jpg?v=1763987934&width=1200"
     },
-         {
+    {
       "id": "20",
-      "tag":"BARÇA EXCLUSİVE",
+      "tag": "BARÇA EXCLUSİVE",
       "name": "Hoodie Core Navy \"MÉS QUE UN CLUB\"",
       "price": "€69,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/FCB_ECOMMERCE_2025408-2.jpg?v=1752663102&width=1200"
     }
-
   ],
-  
-   "memorabilia": [
+  "memorabilia": [
     {
       "id": "1",
       "tag": "SIGNED PRODUCT",
@@ -601,145 +582,139 @@
     },
     {
       "id": "2",
-      "tag":"SIGNED PRODUCT",
+      "tag": "SIGNED PRODUCT",
       "name": "Lionel Messi FC Barcelona Signed Framed Photo – Iconic Clásico Celebration",
       "price": "€1.799,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/Disenosintitulo_71_0d045493-0580-48c7-9b27-f24b221d639f2.jpg?v=1765981176&width=1200"
     },
     {
       "id": "3",
-      "tag":"SIGNED PRODUCT",
+      "tag": "SIGNED PRODUCT",
       "name": "Lionel Messi | Back Signed Barcelona 2020-21 Authentic Home Shirt",
       "price": "€2.799,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/I4044-LionelMessiBackSignedBarcelona2020-21AuthenticHomeShirt_08517dea-d6cf-442c-afae-f7a997e4bc92.jpg?v=1764171136&width=1200"
     },
     {
       "id": "4",
-      "tag":"SIGNED PRODUCT",
+      "tag": "SIGNED PRODUCT",
       "name": "Lionel Messi | Signed and Framed FC Barcelona Capitain's Armband",
       "price": "€1.999,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/I4051FCBF-LionelMessiSignedBarcelonaCaptainsArmband_4aca43cf-b525-4c97-8e1f-62da7b853010.jpg?v=1764170976&width=1200"
     },
-    
-        {
+    {
       "id": "5",
       "tag": "SIGNED PRODUCT",
       "name": "XAVI | Xavi Hernandez official shirt from the 21/22 season FC Barcelona Home Kit with signature",
       "price": "€999,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/products/700x1060-74858-1_e459d9e7-5d56-443b-8a73-64d75c230a58.jpg?v=1680012163&width=1200"
     },
-         {
+    {
       "id": "6",
-      "tag":"BARÇA EXCLUSİVE",
+      "tag": "BARÇA EXCLUSİVE",
       "name": "125th anniversary white gold diamond earring",
       "price": "€2.790,00 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/diamond-earring-white-gold-050ct-fcbarcelona-02_2.jpg?v=1746793027&width=1200"
     },
-         {
+    {
       "id": "7",
-      "tag":"SIGNED PRODUCT",
+      "tag": "SIGNED PRODUCT",
       "name": "GUARDIOLA | Pep Guardiola Official FC Barcelona Back Signed and Framed 1994 Home Shirt",
       "price": "€999,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/Guardiola_1_8b2dc856-ffc7-4101-a5cc-c75f3c2d767d.jpg?v=1719847481&width=1200"
     },
-         {
+    {
       "id": "8",
-      "tag":"SIGNED PRODUCT",
+      "tag": "SIGNED PRODUCT",
       "name": "SUÁREZ | Luis Suarez Official FC Barcelona Back Signed and Framed 2016-17 Home Shirt",
       "price": "€999,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/75665_1.jpg?v=1731066603&width=1200"
     },
-         {
+    {
       "id": "9",
       "category": "STADIUM COLLECTION",
       "name": "Net Original Spotify Camp Nou FC Barcelona",
       "price": "€79,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/76079_1.jpg?v=1765888308&width=1200"
     },
-         {
+    {
       "id": "10",
       "category": "MATCH COLLECTION",
-      "tag":"BARÇA EXCLUSİVE",
+      "tag": "BARÇA EXCLUSİVE",
       "name": "Men’s Shirt Lamine Yamal 2025 FC Barcelona – Kopa Trophy Edition",
       "price": "€299,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/Disenosintitulo_38_e1c06bed-f11f-4d97-91c7-01ed95cc114a.jpg?v=1758635493&width=1200"
     },
-         {
+    {
       "id": "11",
       "category": "MATCH COLLECTION",
-      "tag":"BARÇA EXCLUSİVE",
+      "tag": "BARÇA EXCLUSİVE",
       "name": "Women’s Shirt Aitana Bonmatí 2025 FC Barcelona – Ballon d’Or Edition",
       "price": "€299,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/Disenosintitulo_37_ffe5c425-8578-4a39-9b66-8f8500fe710d.jpg?v=1758634645&width=1200"
     },
-         {
+    {
       "id": "12",
-      "tag":"BARÇA EXCLUSİVE",
+      "tag": "BARÇA EXCLUSİVE",
       "name": "125th gold anniversary diamond earring",
       "price": "€2.790,00 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/diamond-earring-yellow-gold-050ct-fcbarcelona-02_2.jpg?v=1746793028&width=1200"
     },
-         {
+    {
       "id": "13",
-      "tag":"BARÇA EXCLUSİVE",
+      "tag": "BARÇA EXCLUSİVE",
       "name": "125th anniversary diamond bracelet",
       "price": "€2.500,00 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/diamond-bracelet-050ct-fcbarcelona-02_2.jpg?v=1746793224&width=1200"
     },
-         {
+    {
       "id": "14",
       "name": "1957 Gold Necklace FC Barcelona",
       "price": "€1.000,00 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/fcb-memo_collaret_01_0bac1148-b7d7-47f0-9b55-b6ce80bb49d3.jpg?v=1696513673&width=1200"
     },
-         {
+    {
       "id": "15",
       "name": "Net keychain",
       "price": "€29,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/75490_1.jpg?v=1721372454&width=1200"
     },
-
-         {
+    {
       "id": "16",
-      "category":"THE CLUB COLLECTION",
-      "tag":"BARÇA EXCLUSİVE",
+      "category": "THE CLUB COLLECTION",
+      "tag": "BARÇA EXCLUSİVE",
       "name": "The Club sterling silver pen",
       "price": "€189,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/BARCA.RAW1099.jpg?v=1701934349&width=1200"
     },
-
-           {
+    {
       "id": "17",
-      "tag":"BARÇA EXCLUSİVE",
+      "tag": "BARÇA EXCLUSİVE",
       "name": "Miniature antique Spotify Camp Nou",
       "price": "€44,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/IMG_2077-2.jpg?v=1738925648&width=1200"
     },
-
-          {
+    {
       "id": "18",
-      "tag":"BARÇA EXCLUSİVE",
+      "tag": "BARÇA EXCLUSİVE",
       "name": "Miniature grandstand old Spotify Camp Nou",
       "price": "€39,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/IMG_2067.jpg?v=1738918040&width=1200"
     },
-     {
+    {
       "id": "19",
       "name": "Limited Edition - 'Més que un Club' Spotify Camp Nou Seat",
       "price": "€499,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/quadre_seient_camp_nou_02_mid_res_145c47d4-9b61-4fc3-a913-671fc6acb996.jpg?v=1710234163&width=1200"
     },
-         {
+    {
       "id": "20",
       "name": "Miniature Spotify Camp Nou",
       "price": "€44,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/FotosMaqueta-2.jpg?v=1763466576&width=1200"
     }
-
   ],
   "gifts": [
- 
- {
+    {
       "id": "1",
       "tag": "BARÇA EXCLUSİVE",
       "name": "Bottle Lamine Yamal 25/26 Barça",
@@ -764,123 +739,83 @@
       "price": "€39,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/HV3353-400_U_FA25_EQUIPMENT_PHSFP001.jpg?v=1751549058&width=1200"
     },
-    
-        {
+    {
       "id": "5",
-      "tag": "BARÇA EXCLUSİVE",
-      "category": "RETRO COLLECTION",
-      "name": "Modernist FC Barcelona Polo - Oversize",
-      "price": "€59,99 EUR",
-      "img": "https://store.fcbarcelona.com/cdn/shop/files/Bolet_Baixa-11795.jpg?v=1765970839&width=1200"
+      "name": "Cap Nike away FC Barcelona x Kobe Bryant 25/26",
+      "price": "€29,99 EUR",
+      "img": "https://store.fcbarcelona.com/cdn/shop/files/Disenosintitulo_37.jpg?v=1756973627&width=1200"
     },
-         {
+    {
       "id": "6",
-      "category": "STADIUM COLLECTION",
-      "name": "Tee retro Spotify Camp Nou",
-      "price": "€29,99 EUR",
-      "img": "https://store.fcbarcelona.com/cdn/shop/files/CORE-II4082_391dac34-f71d-4453-acdc-51b48962fdaf.jpg?v=1740042048&width=1200"
+      "name": "Scarf Lamine Yamal Loom Barça",
+      "price": "€19,99 EUR",
+      "img": "https://store.fcbarcelona.com/cdn/shop/files/75787_4_c4b57b6f-3288-4ee2-9f1f-7dd9a11bdefc.jpg?v=1749196296&width=1200"
     },
-         {
+    {
       "id": "7",
-      "category": "STADIUM COLLECTION",
-      "name": "Sweatshirt Retro Navy 1899 - FC Barcelona",
-      "price": "€79,99 EUR",
-      "img": "https://store.fcbarcelona.com/cdn/shop/files/Retro_Players_Baixa-8064.jpg?v=1763462853&width=1200"
+      "name": "Double scarf blaugrana",
+      "price": "€24,99 EUR",
+      "img": "https://store.fcbarcelona.com/cdn/shop/files/VO250519A98387.jpg?v=1747659589&width=1200"
     },
-         {
+    {
       "id": "8",
-      "category": "STADIUM COLLECTION",
-      "name": "Sweatshirt Retro 1899",
-      "price": "€79,99 EUR",
-      "img": "https://store.fcbarcelona.com/cdn/shop/files/IMG_6325.jpg?v=1737554661&width=1200"
+      "name": "Barça ball with crest",
+      "price": "€29,99 EUR",
+      "img": "https://store.fcbarcelona.com/cdn/shop/files/75436_1.jpg?v=1721372539&width=1200"
     },
-         {
+    {
       "id": "9",
-      "category": "STADIUM COLLECTION",
-      "name": "Net Original Spotify Camp Nou FC Barcelona",
-      "price": "€79,99 EUR",
-      "img": "https://store.fcbarcelona.com/cdn/shop/files/76079_1.jpg?v=1765888308&width=1200"
+      "name": "Sports bag FC Barcelona",
+      "price": "€59,99 EUR",
+      "img": "https://store.fcbarcelona.com/cdn/shop/files/8412688571949_1.jpg?v=1722519186&width=1200"
     },
-         {
+    {
       "id": "10",
-      "category": "STADIUM COLLECTION",
-      "name": "UCL Men's away jersey 25/26 FC Barcelona x Kobe Bryant",
-      "price": "€114,99 EUR",
-      "img": "https://store.fcbarcelona.com/cdn/shop/files/HJ4603-784_431735711_D_A_1X1_48cfc706-a037-4073-aa5a-8abbde823c12.jpg?v=1753951926&width=1200"
+      "name": "FC Barcelona Captain Armband",
+      "price": "€19,99 EUR",
+      "img": "https://store.fcbarcelona.com/cdn/shop/files/VO251203A97833_med.jpg?v=1765978926&width=1200"
     },
-         {
+    {
       "id": "11",
-      "category": "MATCH COLLECTION",
-      "name": "UCL Men's away jersey 25/26 FC Barcelona x Kobe Bryant - Player's Edition",
-      "price": "€149,99 EUR",
-      "img": "https://store.fcbarcelona.com/cdn/shop/files/TrioBanner-AwayKit26-Balde_Gavi_6b63d094-9292-4d22-b4fd-6f43e7553c48.jpg?v=1753762193&width=1200"
+      "category": "THE CLUB COLLECTION",
+      "tag": "BARÇA EXCLUSİVE",
+      "name": "The Club Black Watch",
+      "price": "€499,99 EUR",
+      "img": "https://store.fcbarcelona.com/cdn/shop/files/2023-10-20-BLM-INIGOMARTINEZ-AC107534.jpg?v=1701696607&width=1200"
     },
-         {
+    {
       "id": "12",
-      "category": "STADIUM COLLECTION",
-      "name": "LAMINE YAMAL | UCL Men's away jersey 25/26 FC Barcelona x Kobe Bryant - Player's Edition",
+      "category": "THE CLUB COLLECTION",
+      "name": "The Club sterling silver pen",
       "price": "€189,99 EUR",
-      "img": "https://store.fcbarcelona.com/cdn/shop/files/VO251126A93853_med.jpg?v=1765876268"
+      "img": "https://store.fcbarcelona.com/cdn/shop/files/BARCA.RAW1099.jpg?v=1701934349&width=1200"
     },
-         {
+    {
       "id": "13",
-      "name": "Lamine Yamal Card FC Barcelona",
-      "price": "€29,99 EUR",
-      "img": "https://store.fcbarcelona.com/cdn/shop/files/76037_3.jpg?v=1763114873&width=1200"
+      "name": "FC Barcelona golden keyring",
+      "price": "€6,99 EUR",
+      "img": "https://store.fcbarcelona.com/cdn/shop/products/unnamed_ed655574-f1af-4a4a-bd45-dad32d9a6610.jpg?v=1680014558&width=1200"
     },
-         {
+    {
       "id": "14",
-      "tag": "PLAYER'S SELECTION",
-      "category": "MATCH COLLECTION",
-      "name": "PEDRI | UCL Men's away jersey 25/26 FC Barcelona x Kobe Bryant - Player's Edition",
-      "price": "€184,99 EUR",
-      "img": "https://store.fcbarcelona.com/cdn/shop/files/VO250926A56875_med_bbe4b6d5-7db6-465e-910a-0ff9b51791d0.jpg?v=1758880261"
-    },
-         {
-      "id": "15",
-      "name": "Pedri Card FC Barcelona",
-      "price": "€29,99 EUR",
-      "img": "https://store.fcbarcelona.com/cdn/shop/files/76035_3.jpg?v=1763114806&width=1200"
-    },
-
-         {
-      "id": "16",
-      "name": "Hoodie express away FC Barcelona x Kobe Bryant Nike",
-      "price": "€89,99 EUR",
-      "img": "https://store.fcbarcelona.com/cdn/shop/files/PHSFMG01-2000_73062da1-8dc1-4c1a-bc28-21fd82dd6aa6.jpg?v=1762763144&width=1200"
-    },
-
-           {
-      "id": "17",
-      "name": "Pant express away FC Barcelona x Kobe Bryant Nike",
-      "price": "€84,99 EUR",
-      "img": "https://store.fcbarcelona.com/cdn/shop/files/PHSYMG01-2000_ad3f5113-e8d3-4b98-8a04-0e7a4ac4955b.jpg?v=1762761527&width=1200"
-    },
-
-          {
-      "id": "18",
-      "name": "FC Barcelona x Kobe Bryant away training coach sweatshirt 25/26",
-      "price": "€69,99 EUR",
-      "img": "https://store.fcbarcelona.com/cdn/shop/files/VO250923A56021_med.jpg?v=1762862570&width=1200"
-    },
-     {
-      "id": "19",
-      "name": "Training Coach Shirt away FC Barcelona x Kobe Bryant 25/26",
+      "name": "Wireless Headphones with charging box",
       "price": "€49,99 EUR",
-      "img": "https://store.fcbarcelona.com/cdn/shop/files/IO4251-084_1.jpg?v=1763478699&width=1200"
+      "img": "https://store.fcbarcelona.com/cdn/shop/files/74306_3.jpg?v=1698998897&width=1200"
     },
-         {
-      "id": "20",
-      "name": "Miniature Spotify Camp Nou",
-      "price": "€44,99 EUR",
-      "img": "https://store.fcbarcelona.com/cdn/shop/files/FotosMaqueta-2.jpg?v=1763466576&width=1200"
+    {
+      "id": "15",
+      "name": "1957 Bracelet FC Barcelona",
+      "price": "€499,00 EUR",
+      "img": "https://store.fcbarcelona.com/cdn/shop/files/fcb-memo_polsera_blaugrana_01.jpg?v=1696513724&width=1200"
+    },
+    {
+      "id": "16",
+      "name": "FC Barcelona fashion bracelet – Blue",
+      "price": "€14,99 EUR",
+      "img": "https://store.fcbarcelona.com/cdn/shop/products/700x1060-74724-1.jpg?v=1680012207&width=1200"
     }
-    
   ],
-
-
-  "men":[
-
+  "men": [
     {
       "id": "1",
       "name": "Jacket tech fleece Barça Nike",
@@ -905,36 +840,33 @@
       "price": "€64,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/AURORA_FZ1259-677_PHSFM001-2000.jpg?v=1767086050&width=1200"
     },
-    
-        {
+    {
       "id": "5",
       "name": "Polo Barça Nike",
       "price": "€69,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/FZ1298-413-PHSFM001.jpg?v=1767087195&width=1200"
     },
-         {
+    {
       "id": "6",
       "name": "Sweatshirt Retro 1899",
       "price": "€79,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/IMG_6325.jpg?v=1737554661&width=1200"
     },
-         {
+    {
       "id": "7",
       "name": "Parka Jacket Nike FC Barcelona",
       "price": "€219,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/VO251124A91376_med.jpg?v=1763987934&width=1200"
     },
-         {
+    {
       "id": "8",
       "name": "Jacket Barça Nike",
       "price": "€134,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/MGA1324_Easy-Resize.com.jpg?v=1763387050&width=1200"
     }
-
   ],
-
-   "kids":[
-{
+  "kids": [
+    {
       "id": "1",
       "name": "Tracksuit Junior FC Barcelona 25/26",
       "price": "€74,99 EUR",
@@ -942,53 +874,51 @@
     },
     {
       "id": "2",
-      "tag":"BARÇA EXCLUSİVE",
+      "tag": "BARÇA EXCLUSİVE",
       "name": "Tracksuit Younger Kids FC Barcelona 25/26 Fourth Kit",
       "price": "€74,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/AURORA_FZ1412-431_PHSFM001-2000.jpg?v=1767086463&width=1200"
     },
     {
       "id": "3",
-      "tag":"5-15 YEARS",
+      "tag": "5-15 YEARS",
       "name": "FC Barcelona Hooded black softshell jacket - Junior",
       "price": "€74,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/Bolet_Baixa-9399.jpg?v=1763976190&width=1200"
     },
     {
       "id": "4",
-      "tag":"BARÇA EXCLUSİVE",
+      "tag": "BARÇA EXCLUSİVE",
       "name": "Red Hoodie with Barça Crest - Junior",
       "price": "€44,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/Bolet_Baixa-9491.jpg?v=1763976788&width=1200"
     },
-    
-        {
+    {
       "id": "5",
       "name": "T-shirt Signature 25/26 - Junior",
       "price": "€24,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/Bolet_Baixa-9457.jpg?v=1763978829&width=1200"
     },
-         {
+    {
       "id": "6",
-      "tag":"5-15 YEARS",
+      "tag": "5-15 YEARS",
       "name": "1995-97's Season Jersey - Junior",
       "price": "€49,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/BARC_A_KIDS_RLK_01_1866.jpg?v=1759477684&width=1200"
     },
-         {
+    {
       "id": "7",
       "name": "Hoodie Junior Barça Nike",
       "price": "€64,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/AURORA_HM3662-084_PHSYM001-2000.jpg?v=1764080279&width=1200"
     },
-         {
+    {
       "id": "8",
-      "tag":"5-15 YEARS",
+      "tag": "5-15 YEARS",
       "name": "Jacket with hood purple Barça Nike - Junior",
       "price": "€54,99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/HM3049-595_1.jpg?v=1751010568&width=1200"
     }
-
-  ]
-
+  ],
+  "basket": []
 }
