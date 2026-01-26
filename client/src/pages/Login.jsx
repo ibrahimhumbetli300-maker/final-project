@@ -31,16 +31,16 @@ function Login() {
       const data = await res.json();
 
       if (data.length > 0) {
-        // user-i saxla
+   
         localStorage.setItem("user", JSON.stringify(data[0]));
 
         navigate("/");
       } else {
-        alert("Email və ya password səhvdir ❌");
+        alert("Email və ya password səhvdir ");
       }
     } catch (error) {
       console.error(error);
-      alert("Server xətası ❌");
+      alert("Server xətası");
     }
   };
 

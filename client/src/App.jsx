@@ -5,14 +5,14 @@ import GenderDropdown from "./components/GenderDropdown.jsx";
 import Footer from "./components/Footer.jsx";
 function App() {
   return (
-    <>
-   
-   
+    <div className="flex flex-col min-h-screen">
       <Navbar />
       <GenderDropdown />
-      <AppRoutes />
-      <Footer/>
-    </>
+      <div className="flex-grow">
+        <AppRoutes />
+      </div>
+      <Footer />
+    </div>
   );
 }
 

@@ -80,7 +80,6 @@ function Home() {
 
       <section className="w-full bg-[#0b0f2f] py-10 px-4">
         <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-20">
-          {/* MEN APPAREL */}
           <div
             onClick={handleMen}
             className="relative h-[70vh] rounded-xl overflow-hidden cursor-pointer group"
@@ -94,11 +93,10 @@ function Home() {
             <div className="absolute inset-0 bg-black/40"></div>
 
             <h2 className="absolute bottom-6 left-6 text-white text-3xl font-extrabold tracking-widest">
-              MEN'S APPAREL 
+              MEN'S APPAREL
             </h2>
           </div>
 
-          {/* KIDS APPAREL */}
           <div
             onClick={handleKids}
             className="relative h-[70vh] rounded-xl overflow-hidden cursor-pointer group"
@@ -118,30 +116,22 @@ function Home() {
         </div>
       </section>
 
-
-
-<section className="w-full overflow-hidden py-4 my-6 border-t-2 border-b-2 border-white bg-transparent  flex">
-  <div className="flex whitespace-nowrap animate-marquee">
-    <span className="mx-12 text-5xl font-extrabold tracking-widest bg-gradient-to-r from-red-600 via-pink-400 to-blue-700 bg-clip-text text-transparent">
-      MES QUE UN CLUB <span> &#11044;</span>
-    </span>
-    <span className="mx-12 text-5xl font-extrabold tracking-widest bg-gradient-to-r from-red-600 via-pink-400 to-blue-700 bg-clip-text text-transparent">
-      MES QUE UN CLUB <span> &#11044;</span>
-    </span>
-    <span className="mx-12 text-5xl font-extrabold tracking-widest bg-gradient-to-r from-red-600 via-pink-400 to-blue-700 bg-clip-text text-transparent">
-      MES QUE UN CLUB <span> &#11044;</span>
-    </span>
-    <span className="mx-12 text-5xl font-extrabold tracking-widest bg-gradient-to-r from-red-600 via-pink-400 to-blue-700 bg-clip-text text-transparent">
-      MES QUE UN CLUB <span className="logo"> &#11044;</span>
-    </span>
-  </div>
-</section>
-
-
-
-
-
-   
+      <section className="w-full overflow-hidden py-4 my-6 border-t-2 border-b-2 border-white bg-transparent  flex">
+        <div className="flex whitespace-nowrap animate-marquee">
+          <span className="mx-12 text-5xl font-extrabold tracking-widest bg-gradient-to-r from-red-600 via-pink-400 to-blue-700 bg-clip-text text-transparent">
+            MES QUE UN CLUB <span> &#11044;</span>
+          </span>
+          <span className="mx-12 text-5xl font-extrabold tracking-widest bg-gradient-to-r from-red-600 via-pink-400 to-blue-700 bg-clip-text text-transparent">
+            MES QUE UN CLUB <span> &#11044;</span>
+          </span>
+          <span className="mx-12 text-5xl font-extrabold tracking-widest bg-gradient-to-r from-red-600 via-pink-400 to-blue-700 bg-clip-text text-transparent">
+            MES QUE UN CLUB <span> &#11044;</span>
+          </span>
+          <span className="mx-12 text-5xl font-extrabold tracking-widest bg-gradient-to-r from-red-600 via-pink-400 to-blue-700 bg-clip-text text-transparent">
+            MES QUE UN CLUB <span className="logo"> &#11044;</span>
+          </span>
+        </div>
+      </section>
 
       <section
         className="relative w-full h-[80vh] bg-center bg-cover"

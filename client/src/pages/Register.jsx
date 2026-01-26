@@ -20,7 +20,7 @@ function Register() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // sadə validation
+ 
     if (!formData.firstName || !formData.lastName || !formData.email || !formData.password) {
       alert("Zəhmət olmasa bütün * sahələri doldurun");
       return;
@@ -42,7 +42,7 @@ function Register() {
       });
 
       if (res.ok) {
-        alert("Account created successfully ✅");
+        alert("Account created successfully");
         setFormData({
           firstName: "",
           lastName: "",
@@ -53,14 +53,14 @@ function Register() {
       }
     } catch (error) {
       console.error(error);
-      alert("Xəta baş verdi ❌");
+      alert("Xəta baş verdi");
     }
   };
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-white">
       <div className="w-full max-w-md text-center px-6">
-        {/* Logo */}
+      
         <div className="flex flex-col items-center mb-6">
           <img
             src="https://upload.wikimedia.org/wikipedia/en/4/47/FC_Barcelona_%28crest%29.svg"

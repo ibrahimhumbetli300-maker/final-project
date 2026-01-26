@@ -4,12 +4,14 @@ import { AiFillInstagram, AiFillTwitterCircle } from "react-icons/ai";
 import { AiFillTikTok } from "react-icons/ai";
 import { FaYoutube } from "react-icons/fa";
 import { FaSpotify } from "react-icons/fa";
+
+
 import "../index.css";
 
 const Footer = () => {
   return (
-    <div className="footer w-full h-16 bg-blue-900 text-white flex items-center justify-center text-sm">
-      <p>&copy; 2026 FC Barcelona Official Store.</p>
+    <div className="footer w-full h-16 bg-blue-900 text-white flex items-center justify-center text-sm font-black">
+      <p>&copy; FC Barcelona Official Store.</p>
 
       <div className="icon social-grid flex items-center ml-4 gap-4">
         <a
@@ -27,7 +29,7 @@ const Footer = () => {
           rel="noopener noreferrer"
           className="cursor-pointer hover:text-pink-400 transition"
         >
-          <AiFillInstagram size={22} />
+          <AiFillInstagram size={23} />
         </a>
 
         <a
@@ -68,6 +70,8 @@ const Footer = () => {
 
             <FaSpotify size={24} />
         </a>
+
+
 
 
 
