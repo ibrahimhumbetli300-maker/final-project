@@ -1,11 +1,11 @@
 import React from "react";
 import { useBasket } from "../context/BasketContext";
 import { HiTrash } from "react-icons/hi2";
-import { Link, useNavigate } from "react-router-dom"; 
+import { Link, useNavigate } from "react-router-dom";
 
 const Basket = () => {
-  const navigate = useNavigate(); 
-  
+  const navigate = useNavigate();
+
   const {
     basket,
     removeFromBasket,
@@ -126,7 +126,7 @@ const Basket = () => {
               </div>
             </div>
 
-            <button 
+            <button
               onClick={() => navigate("/checkout")}
               className="w-full bg-[#0b0f2f] text-white py-4 rounded font-bold hover:bg-yellow-500 hover:text-black transition-colors uppercase tracking-wider mb-4 cursor-pointer"
             >

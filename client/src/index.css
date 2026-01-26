@@ -38,7 +38,7 @@
 
 .social-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 yuxarı, 3 aşağı */
+  grid-template-columns: repeat(3, 1fr); 
   grid-template-rows: repeat(2, auto);
   gap: 12px;
   align-items: center;

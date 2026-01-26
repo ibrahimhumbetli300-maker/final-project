@@ -5,10 +5,10 @@ import { useBasket } from "../context/BasketContext";
 
 const ProductDetails = () => {
 
-  const { category, id } = useParams(); 
+  const { category, id } = useParams();
   const navigate = useNavigate();
   const { addToBasket } = useBasket();
-  
+
   const [product, setProduct] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -17,19 +17,19 @@ const ProductDetails = () => {
     const fetchProduct = async () => {
       try {
         setLoading(true);
-        
+
         console.log(`Fetching: http://localhost:3000/${category}/${id}`);
 
         if (!category || category === "undefined") {
-            throw new Error("Kateqoriya tapılmadı (URL səhvdir)");
+          throw new Error("Kateqoriya tapılmadı (URL səhvdir)");
         }
 
         const res = await fetch(`http://localhost:3000/${category}/${id}`);
-        
+
         if (!res.ok) throw new Error("Məhsul tapılmadı (Server xətası)");
         const data = await res.json();
-        
-        setProduct({ ...data, category }); 
+
+        setProduct({ ...data, category });
       } catch (err) {
         console.error("Xəta:", err);
         setError(err.message);
@@ -39,7 +39,7 @@ const ProductDetails = () => {
     };
 
     if (category && id) {
-        fetchProduct();
+      fetchProduct();
     }
   }, [category, id]);
 
@@ -74,7 +74,7 @@ const ProductDetails = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
         <div className="w-full bg-gray-50 rounded-xl overflow-hidden flex items-center justify-center p-4 border border-gray-200">
-  
+
           <img src={product?.img} alt={product?.name} className="max-h-[500px] object-contain" />
         </div>
 
@@ -88,7 +88,7 @@ const ProductDetails = () => {
           <p className="text-3xl text-blue-900 font-bold mb-6">
             {product?.price}
           </p>
-          
+
           <button onClick={handleAddToCart} className="bg-[#0b0f2f] text-white py-4 px-10 rounded-lg cursor-pointer flex items-center gap-2 justify-center hover:bg-yellow-500 hover:text-black transition duration-300 shadow-lg">
             SƏBƏTƏ AT <HiShoppingBag />
           </button>

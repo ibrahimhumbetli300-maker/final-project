@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Link, useNavigate } from "react-router-dom"; 
+import { Link, useNavigate } from "react-router-dom";
 import { useBasket } from "../context/BasketContext";
 
 const Gifts = () => {
@@ -8,7 +8,7 @@ const Gifts = () => {
 
   const navigate = useNavigate();
   const { addToBasket } = useBasket();
-  
+
   useEffect(() => {
     const fetchBestSellers = async () => {
       try {
@@ -46,35 +46,35 @@ const Gifts = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-4 gap-y-10 px-8 py-10">
         {products.map((product) => (
           <div key={product.id} className="group relative">
-            
-       
-            <Link to={`/product/gifts/${product.id}`} className="block">
-                <div className="relative aspect-[3/4] bg-gray-100 mb-4 overflow-hidden">
-                  <div
-                    className="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
-                    style={{ backgroundImage: `url(${product.img})` }}
-                  />
-                  {product.tag && (
-                    <div className="absolute bottom-4 left-4 bg-white px-2 py-1 flex items-center gap-1 text-[10px] font-bold border border-gray-200 shadow-sm">
-                      <span className="text-yellow-500">★</span> {product.tag}
-                    </div>
-                  )}
-                </div>
 
-                <div className="space-y-1">
-                  <p className="text-[11px] font-bold text-gray-500 tracking-wider uppercase">
-                    {product.category}
-                  </p>
-                  <h3 className="text-[15px] font-medium leading-tight text-gray-800 group-hover:underline">
-                    {product.name}
-                  </h3>
-                  <p className="text-[15px] font-bold text-black pt-1">
-                    {product.price}
-                  </p>
-                </div>
+
+            <Link to={`/product/gifts/${product.id}`} className="block">
+              <div className="relative aspect-[3/4] bg-gray-100 mb-4 overflow-hidden">
+                <div
+                  className="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
+                  style={{ backgroundImage: `url(${product.img})` }}
+                />
+                {product.tag && (
+                  <div className="absolute bottom-4 left-4 bg-white px-2 py-1 flex items-center gap-1 text-[10px] font-bold border border-gray-200 shadow-sm">
+                    <span className="text-yellow-500">★</span> {product.tag}
+                  </div>
+                )}
+              </div>
+
+              <div className="space-y-1">
+                <p className="text-[11px] font-bold text-gray-500 tracking-wider uppercase">
+                  {product.category}
+                </p>
+                <h3 className="text-[15px] font-medium leading-tight text-gray-800 group-hover:underline">
+                  {product.name}
+                </h3>
+                <p className="text-[15px] font-bold text-black pt-1">
+                  {product.price}
+                </p>
+              </div>
             </Link>
 
-            <button 
+            <button
               onClick={(e) => handleAddToCart(e, product)}
               className="mt-2 bg-blue-900 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors cursor-pointer relative z-10"
             >

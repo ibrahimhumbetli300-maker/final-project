@@ -115,10 +115,9 @@ const Navbar = () => {
               key={link.path}
               to={link.path}
               className={({ isActive }) =>
-                `h-full flex items-center border-b-2 ${
-                  isActive
-                    ? "border-yellow-400 text-white"
-                    : "border-transparent text-gray-300 hover:text-yellow-400"
+                `h-full flex items-center border-b-2 ${isActive
+                  ? "border-yellow-400 text-white"
+                  : "border-transparent text-gray-300 hover:text-yellow-400"
                 }`
               }
             >
