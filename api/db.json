@@ -31,6 +31,14 @@
       "email": "barakaibrahim041@gmail.com",
       "password": "barakacombat041",
       "agree": false
+    },
+    {
+      "id": "71f2",
+      "firstName": "İbrahim",
+      "lastName": "Hümbətli",
+      "email": "barakaibrahim041@gmail.com",
+      "password": "45678",
+      "agree": false
     }
   ],
   "bestsellers": [

@@ -2,9 +2,13 @@ import React from "react";
 import { useBasket } from "../context/BasketContext";
 import { HiTrash } from "react-icons/hi2";
 import { Link, useNavigate } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+import { useLocalizedProduct } from "../hooks/useLocalizedProduct";
 
 const Basket = () => {
   const navigate = useNavigate();
+  const { t } = useTranslation();
+  const { getLocalizedProducts } = useLocalizedProduct();
 
   const {
     basket,
@@ -14,20 +18,22 @@ const Basket = () => {
     clearBasket,
   } = useBasket();
 
+  const localizedBasket = getLocalizedProducts(basket);
+
   if (basket.length === 0) {
     return (
       <div className="w-full min-h-screen flex flex-col items-center justify-center bg-gray-50 text-center px-4">
         <h2 className="text-3xl font-bold text-[#0b0f2f] mb-4">
-          Your Basket is Empty
+          {t('basket_empty')}
         </h2>
         <p className="text-gray-600 mb-8">
-          Looks like you haven't added any items yet.
+          {t('empty_basket_msg')}
         </p>
         <Link
           to="/"
           className="bg-[#0b0f2f] text-white px-8 py-3 rounded font-bold hover:bg-yellow-500 hover:text-black transition-colors"
         >
-          Start Shopping
+          {t('start_shopping')}
         </Link>
       </div>
     );
@@ -37,12 +43,12 @@ const Basket = () => {
     <div className="w-full min-h-screen bg-gray-50 py-10 px-4 md:px-10">
       <div className="max-w-7xl mx-auto">
         <h1 className="text-3xl font-extrabold text-[#0b0f2f] mb-8 border-b-2 border-gray-200 pb-4">
-          YOUR BASKET ({basket.length} items)
+          {t('your_basket')} ({basket.length} {t('items')})
         </h1>
 
         <div className="flex flex-col lg:flex-row gap-10">
           <div className="lg:w-2/3 space-y-6">
-            {basket.map((item) => (
+            {localizedBasket.map((item) => (
               <div
                 key={item.id}
                 className="bg-white p-6 rounded-lg shadow-sm flex flex-col sm:flex-row items-center gap-6"
@@ -105,23 +111,23 @@ const Basket = () => {
 
           <div className="lg:w-1/3 h-fit bg-white p-8 rounded-lg shadow-sm sticky top-24">
             <h2 className="text-xl font-bold text-[#0b0f2f] mb-6">
-              Order Summary
+              {t('order_summary')}
             </h2>
 
             <div className="space-y-4 mb-6">
               <div className="flex justify-between text-gray-600">
-                <span>Subtotal</span>
+                <span>{t('subtotal')}</span>
                 <span>${getBasketTotal()}</span>
               </div>
               <div className="flex justify-between text-gray-600">
-                <span>Shipping</span>
-                <span>Calculated at checkout</span>
+                <span>{t('shipping')}</span>
+                <span>{t('shipping_msg')}</span>
               </div>
             </div>
 
             <div className="border-t border-gray-200 pt-4 mb-8">
               <div className="flex justify-between text-xl font-bold text-[#0b0f2f]">
-                <span>Total</span>
+                <span>{t('total')}</span>
                 <span>${getBasketTotal()}</span>
               </div>
             </div>
@@ -130,14 +136,14 @@ const Basket = () => {
               onClick={() => navigate("/checkout")}
               className="w-full bg-[#0b0f2f] text-white py-4 rounded font-bold hover:bg-yellow-500 hover:text-black transition-colors uppercase tracking-wider mb-4 cursor-pointer"
             >
-              Checkout
+              {t('checkout')}
             </button>
 
             <button
               onClick={clearBasket}
               className="w-full text-gray-500 text-sm underline hover:text-red-500 transition-colors cursor-pointer"
             >
-              Clear Basket
+              {t('clear_basket')}
             </button>
           </div>
         </div>

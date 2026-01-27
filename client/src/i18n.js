@@ -1,0 +1,271 @@
+import i18n from 'i18next';
+import { initReactI18next } from 'react-i18next';
+import LanguageDetector from 'i18next-browser-languagedetector';
+
+// Initialize i18next
+i18n
+    .use(LanguageDetector)
+    .use(initReactI18next)
+    .init({
+        debug: true,
+        fallbackLng: 'en',
+        interpolation: {
+            escapeValue: false, // not needed for react as it escapes by default
+        },
+        resources: {
+            en: {
+                translation: {
+                    official_store: "Official Store",
+                    best_sellers: "Best Sellers",
+                    kits: "Kits",
+                    training: "Training",
+                    apparel: "Apparel",
+                    memorabilia: "Memorabilia",
+                    gifts_accessories: "Gifts & Accessories",
+                    search_placeholder: "Search...",
+                    no_results: "No results found",
+                    sign_in: "Sign In",
+                    sign_up: "Sign Up",
+
+                    supercopa: "SUPERCOPA",
+                    champions: "CHAMPIONS",
+                    shop_now_training: "SHOP NOW TRAINING",
+                    shop_now_kits: "SHOP NOW KITS",
+                    fc_barcelona_kits: "FC BARCELONA KITS",
+                    mens_apparel: "MEN'S APPAREL",
+                    kids_apparel: "KIDS APPAREL",
+                    shop_now_best_sellers: "SHOP NOW BEST SELLERS",
+                    mes_que_un_club: "MES QUE UN CLUB",
+
+                    basket_empty: "Your Basket is Empty",
+                    empty_basket_msg: "Looks like you haven't added any items yet.",
+                    start_shopping: "Start Shopping",
+                    your_basket: "YOUR BASKET",
+                    items: "items",
+                    order_summary: "Order Summary",
+                    subtotal: "Subtotal",
+                    shipping: "Shipping",
+                    shipping_msg: "Calculated at checkout",
+                    total: "Total",
+                    checkout: "Checkout",
+                    clear_basket: "Clear Basket",
+
+                    email_password_empty: "Email and password cannot be empty",
+                    email_password_wrong: "Email or password is incorrect",
+                    server_error: "Server error",
+                    spotify_camp_nou: "Spotify Camp Nou",
+                    enter_login_info: "Enter your login information",
+                    email: "Email",
+                    password: "Password",
+                    create_account: "CREATE ACCOUNT",
+
+                    fill_all_fields: "Please fill all * fields",
+                    account_created: "Account created successfully",
+                    error_occurred: "An error occurred",
+                    enter_data_create_account: "Enter your data to create an account",
+                    first_name: "First name",
+                    last_name: "Last name",
+                    create: "CREATE",
+                    privacy_policy_accept: "By creating an account you accept the privacy policy.",
+                    log_in: "LOG IN",
+
+                    category_not_found: "Category not found (Invalid URL)",
+                    product_not_found: "Product not found (Server error)",
+                    loading: "Loading...",
+                    error_title: "Error occurred!",
+                    go_back: "Go back",
+                    add_to_basket: "ADD TO BASKET",
+
+                    loading_products: "Loading products...",
+                    add_to_cart: "Add to Cart",
+                    training_kits_title: "TRAINING KITS",
+
+                    checkout_title: "CHECKOUT",
+                    contact_info: "Contact Information",
+                    shipping_address: "Shipping Address",
+                    street_address: "Street Address",
+                    city: "City",
+                    payment_details: "Payment Details",
+                    card_number: "Card Number",
+                    expiry_date: "MM/YY",
+                    cvv: "CVV",
+                    place_order: "PLACE ORDER",
+
+                    order_success_title: "Order Successful!",
+                    order_success_msg: "Thank you for your purchase. Your order has been placed successfully.",
+                    return_home: "Return to Home",
+                    redirect_msg: "Redirecting to home page in 5 seconds..."
+                }
+            },
+            es: {
+                translation: {
+                    official_store: "Tienda Oficial",
+                    best_sellers: "Más Vendidos",
+                    kits: "Equipaciones",
+                    training: "Entrenamiento",
+                    apparel: "Ropa",
+                    memorabilia: "Recuerdos",
+                    gifts_accessories: "Regalos y Accesorios",
+                    search_placeholder: "Buscar...",
+                    no_results: "No se encontraron resultados",
+                    sign_in: "Iniciar Sesión",
+                    sign_up: "Registrarse",
+
+                    supercopa: "SUPERCOPA",
+                    champions: "CAMPEONES",
+                    shop_now_training: "COMPRAR ENTRENAMIENTO",
+                    shop_now_kits: "COMPRAR EQUIPACIONES",
+                    fc_barcelona_kits: "EQUIPACIONES FC BARCELONA",
+                    mens_apparel: "ROPA DE HOMBRE",
+                    kids_apparel: "ROPA DE NIÑO",
+                    shop_now_best_sellers: "COMPRAR MÁS VENDIDOS",
+                    mes_que_un_club: "MÉS QUE UN CLUB",
+
+                    basket_empty: "Tu Cesta está Vacía",
+                    empty_basket_msg: "Parece que aún no has añadido ningún artículo.",
+                    start_shopping: "Empezar a Comprar",
+                    your_basket: "TU CESTA",
+                    items: "artículos",
+                    order_summary: "Resumen del Pedido",
+                    subtotal: "Subtotal",
+                    shipping: "Envío",
+                    shipping_msg: "Calculado en el pago",
+                    total: "Total",
+                    checkout: "Pagar",
+                    clear_basket: "Vaciar Cesta",
+
+                    email_password_empty: "El correo electrónico y la contraseña no pueden estar vacíos",
+                    email_password_wrong: "Correo electrónico o contraseña incorrectos",
+                    server_error: "Error del servidor",
+                    spotify_camp_nou: "Spotify Camp Nou",
+                    enter_login_info: "Ingrese su información de inicio de sesión",
+                    email: "Correo electrónico",
+                    password: "Contraseña",
+                    create_account: "CREAR CUENTA",
+
+                    fill_all_fields: "Por favor complete todos los campos *",
+                    account_created: "Cuenta creada con éxito",
+                    error_occurred: "Ocurrió un error",
+                    enter_data_create_account: "Introduce tus datos para crear una cuenta",
+                    first_name: "Nombre",
+                    last_name: "Apellido",
+                    create: "CREAR",
+                    privacy_policy_accept: "Al crear una cuenta aceptas la política de privacidad.",
+                    log_in: "INICIAR SESIÓN",
+
+                    category_not_found: "Categoría no encontrada (URL no válida)",
+                    product_not_found: "Producto no encontrado (Error del servidor)",
+                    loading: "Cargando...",
+                    error_title: "¡Ocurrió un error!",
+                    go_back: "Volver",
+                    add_to_basket: "AÑADIR A LA CESTA",
+
+                    loading_products: "Cargando productos...",
+                    add_to_cart: "Añadir al Carrito",
+                    training_kits_title: "EQUIPACIONES DE ENTRENAMIENTO",
+
+                    checkout_title: "PAGAR",
+                    contact_info: "Información de Contacto",
+                    shipping_address: "Dirección de Envío",
+                    street_address: "Dirección",
+                    city: "Ciudad",
+                    payment_details: "Detalles de Pago",
+                    card_number: "Número de Tarjeta",
+                    expiry_date: "MM/YY",
+                    cvv: "CVV",
+                    place_order: "REALIZAR PEDIDO",
+
+                    order_success_title: "¡Pedido Exitoso!",
+                    order_success_msg: "Gracias por su compra. Su pedido se ha realizado con éxito.",
+                    return_home: "Volver al Inicio",
+                    redirect_msg: "Redirigiendo a la página de inicio en 5 segundos..."
+                }
+            },
+            az: {
+                translation: {
+                    official_store: "Rəsmi Mağaza",
+                    best_sellers: "Ən Çox Satılanlar",
+                    kits: "Formalar",
+                    training: "Məşq Geyimləri",
+                    apparel: "Geyim",
+                    memorabilia: "Xatirə Əşyaları",
+                    gifts_accessories: "Hədiyyələr və Aksesuarlar",
+                    search_placeholder: "Axtarın...",
+                    no_results: "Nəticə tapılmadı",
+                    sign_in: "Daxil Ol",
+                    sign_up: "Qeydiyyatdan Keç",
+
+                    supercopa: "SUPERKUBOK",
+                    champions: "ÇEMPİONLAR",
+                    shop_now_training: "MƏŞQ GEYİMLƏRİNİ AL",
+                    shop_now_kits: "FORMALARI AL",
+                    fc_barcelona_kits: "FC BARCELONA FORMALARI",
+                    mens_apparel: "KİŞİ GEYİMLƏRİ",
+                    kids_apparel: "UŞAQ GEYİMLƏRİ",
+                    shop_now_best_sellers: "ƏN ÇOX SATILANLARI AL",
+                    mes_que_un_club: "BİR KLUBDAN DAHA ARTIQ",
+
+                    basket_empty: "Səbətiniz Boşdur",
+                    empty_basket_msg: "Görünür hələ heç nə əlavə etməmisiniz.",
+                    start_shopping: "Alış-verişə Başla",
+                    your_basket: "SƏBƏTİNİZ",
+                    items: "məhsul",
+                    order_summary: "Sifariş Xülasəsi",
+                    subtotal: "Ümumi",
+                    shipping: "Çatdırılma",
+                    shipping_msg: "Ödəniş zamanı hesablanacaq",
+                    total: "Cəmi",
+                    checkout: "Sifarişi Rəsmiləşdir",
+                    clear_basket: "Səbəti Təmizlə",
+
+                    email_password_empty: "E-poçt və şifrə boş ola bilməz",
+                    email_password_wrong: "E-poçt və ya şifrə səhvdir",
+                    server_error: "Server xətası",
+                    spotify_camp_nou: "Spotify Camp Nou",
+                    enter_login_info: "Giriş məlumatlarınızı daxil edin",
+                    email: "E-poçt",
+                    password: "Şifrə",
+                    create_account: "HESAB YARAT",
+
+                    fill_all_fields: "Zəhmət olmasa bütün * sahələri doldurun",
+                    account_created: "Hesab uğurla yaradıldı",
+                    error_occurred: "Xəta baş verdi",
+                    enter_data_create_account: "Hesab yaratmaq üçün məlumatlarınızı daxil edin",
+                    first_name: "Ad",
+                    last_name: "Soyad",
+                    create: "YARAT",
+                    privacy_policy_accept: "Hesab yaradaraq məxfilik siyasətini qəbul edirsiniz.",
+                    log_in: "DAXİL OL",
+
+                    category_not_found: "Kateqoriya tapılmadı (URL səhvdir)",
+                    product_not_found: "Məhsul tapılmadı (Server xətası)",
+                    loading: "Yüklənir...",
+                    error_title: "Xəta baş verdi!",
+                    go_back: "Geriyə qayıt",
+                    add_to_basket: "SƏBƏTƏ AT",
+
+                    loading_products: "Məhsullar yüklənir...",
+                    add_to_cart: "Səbətə Əlavə Et",
+                    training_kits_title: "MƏŞQ FORMALARI",
+
+                    checkout_title: "SİFARİŞİ RƏSMİLƏŞDİR",
+                    contact_info: "Əlaqə Məlumatları",
+                    shipping_address: "Çatdırılma Ünvanı",
+                    street_address: "Küçə Ünvanı",
+                    city: "Şəhər",
+                    payment_details: "Ödəniş Məlumatları",
+                    card_number: "Kart Nömrəsi",
+                    expiry_date: "AA/İİ",
+                    cvv: "CVV",
+                    place_order: "SİFARİŞİ TƏSDİQLƏ",
+
+                    order_success_title: "Sifariş Uğurludur!",
+                    order_success_msg: "Alış-verişiniz üçün təşəkkür edirik. Sifarişiniz uğurla qeydə alındı.",
+                    return_home: "Əsas Səhifəyə Qayıt",
+                    redirect_msg: "5 saniyə ərzində əsas səhifəyə yönləndirilirsiniz..."
+                }
+            }
+        }
+    });
+
+export default i18n;

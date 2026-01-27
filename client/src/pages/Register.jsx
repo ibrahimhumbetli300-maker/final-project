@@ -1,6 +1,8 @@
 import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 function Register() {
+  const { t } = useTranslation();
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
@@ -20,9 +22,8 @@ function Register() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
- 
     if (!formData.firstName || !formData.lastName || !formData.email || !formData.password) {
-      alert("Zəhmət olmasa bütün * sahələri doldurun");
+      alert(t('fill_all_fields'));
       return;
     }
 
@@ -42,7 +43,7 @@ function Register() {
       });
 
       if (res.ok) {
-        alert("Account created successfully");
+        alert(t('account_created'));
         setFormData({
           firstName: "",
           lastName: "",
@@ -53,14 +54,14 @@ function Register() {
       }
     } catch (error) {
       console.error(error);
-      alert("Xəta baş verdi");
+      alert(t('error_occurred'));
     }
   };
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-white">
       <div className="w-full max-w-md text-center px-6">
-      
+
         <div className="flex flex-col items-center mb-6">
           <img
             src="https://upload.wikimedia.org/wikipedia/en/4/47/FC_Barcelona_%28crest%29.svg"
@@ -68,78 +69,76 @@ function Register() {
             className="w-20 h-20"
           />
           <h1 className="text-xl font-semibold">
-            BARÇA <span className="font-light">Official Store</span>
+            BARÇA <span className="font-light">{t('official_store')}</span>
           </h1>
-          <p className="text-sm text-gray-600">Spotify Camp Nou</p>
+          <p className="text-sm text-gray-600">{t('spotify_camp_nou')}</p>
         </div>
 
         <p className="text-sm mb-6">
-          Enter your data to create an account
+          {t('enter_data_create_account')}
         </p>
 
         <form onSubmit={handleSubmit} className="space-y-4 text-left">
           <div>
-            <label className="text-sm font-medium">First name *</label>
+            <label className="text-sm font-medium">{t('first_name')} *</label>
             <input
               name="firstName"
               value={formData.firstName}
               onChange={handleChange}
-              placeholder="First name"
+              placeholder={t('first_name')}
               className="w-full border rounded-md px-4 py-2"
             />
           </div>
 
           <div>
-            <label className="text-sm font-medium">Last name *</label>
+            <label className="text-sm font-medium">{t('last_name')} *</label>
             <input
               name="lastName"
               value={formData.lastName}
               onChange={handleChange}
-              placeholder="Last name"
+              placeholder={t('last_name')}
               className="w-full border rounded-md px-4 py-2"
             />
           </div>
 
           <div>
-            <label className="text-sm font-medium">Email *</label>
+            <label className="text-sm font-medium">{t('email')} *</label>
             <input
               type="email"
               name="email"
               value={formData.email}
               onChange={handleChange}
-              placeholder="Email"
+              placeholder={t('email')}
               className="w-full border rounded-md px-4 py-2"
             />
           </div>
 
           <div>
-            <label className="text-sm font-medium">Password *</label>
+            <label className="text-sm font-medium">{t('password')} *</label>
             <input
               type="password"
               name="password"
               value={formData.password}
               onChange={handleChange}
-              placeholder="Password"
+              placeholder={t('password')}
               className="w-full border rounded-md px-4 py-2"
             />
           </div>
-
-         
 
           <button
             type="submit"
             className="w-full bg-yellow-400 hover:bg-yellow-500 py-3 font-semibold rounded-md text-center"
           >
-            CREATE
+            {t('create')}
           </button>
         </form>
 
         <p className="text-xs text-gray-600 mt-6">
-          By creating an account you accept the privacy policy.
+          {t('privacy_policy_accept')}
         </p>
 
         <a href="/login" className="block mt-6 font-semibold underline text-center">
-          LOG IN
+          {t('log_in')}
         </a>
       </div>
     </div>

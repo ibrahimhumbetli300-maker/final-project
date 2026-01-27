@@ -8,10 +8,15 @@ import {
 } from "react-icons/fa";
 import { useState, useEffect } from "react";
 import { useBasket } from "../context/BasketContext";
+import { useTranslation } from "react-i18next";
+import LanguageSwitcher from "./LanguageSwitcher";
+import { useLocalizedProduct } from "../hooks/useLocalizedProduct";
 
 const IMAGE_BASE_URL = "http://localhost:3000";
 
 const Navbar = () => {
+  const { t } = useTranslation();
+  const { getLocalizedProduct } = useLocalizedProduct();
   const [showSearch, setShowSearch] = useState(false);
   const [openUser, setOpenUser] = useState(false);
   const [mobileMenu, setMobileMenu] = useState(false);
@@ -24,12 +29,12 @@ const Navbar = () => {
   const [filteredResults, setFilteredResults] = useState([]);
 
   const navLinks = [
-    { title: "Best Sellers", path: "/best-sellers" },
-    { title: "Kits", path: "/kits" },
-    { title: "Training", path: "/training" },
-    { title: "Apparel", path: "/apparel" },
-    { title: "Memorabilia", path: "/memorabilia" },
-    { title: "Gifts and Accessories", path: "/gifts" },
+    { title: t("best_sellers"), path: "/best-sellers" },
+    { title: t("kits"), path: "/kits" },
+    { title: t("training"), path: "/training" },
+    { title: t("apparel"), path: "/apparel" },
+    { title: t("memorabilia"), path: "/memorabilia" },
+    { title: t("gifts_accessories"), path: "/gifts" },
   ];
 
   useEffect(() => {
@@ -61,8 +66,8 @@ const Navbar = () => {
   }, []);
 
   const handleSearch = (e) => {
-    const value = e.target.value;
-    setSearchTerm(value);
+    const value = e.target.value.toLowerCase();
+    setSearchTerm(e.target.value);
 
     if (!value.trim()) {
       setFilteredResults([]);
@@ -70,7 +75,9 @@ const Navbar = () => {
       setFilteredResults(
         allProducts
           .filter((item) =>
-            item.name?.toLowerCase().includes(value.toLowerCase()),
+            item.name?.toLowerCase().includes(value) ||
+            item.name_es?.toLowerCase().includes(value) ||
+            item.name_az?.toLowerCase().includes(value)
           )
           .slice(0, 5),
       );
@@ -104,7 +111,7 @@ const Navbar = () => {
           <span className="font-bold text-xl">
             BARÇA
             <span className="block text-[10px] font-normal uppercase">
-              Official Store
+              {t("official_store")}
             </span>
           </span>
         </NavLink>
@@ -127,6 +134,8 @@ const Navbar = () => {
         </nav>
 
         <div className="flex items-center gap-5 relative">
+          <LanguageSwitcher />
+
           <div className="relative">
             <FaSearch
               size={18}
@@ -141,41 +150,44 @@ const Navbar = () => {
                   value={searchTerm}
                   onChange={handleSearch}
                   onKeyDown={handleKeyDown}
-                  placeholder="Axtarın..."
+                  placeholder={t("search_placeholder")}
                   className="w-full px-3 py-2 bg-[#0f153d] text-sm rounded outline-none"
                 />
 
                 {searchTerm && (
                   <div className="mt-2">
                     {filteredResults.length ? (
-                      filteredResults.map((item) => (
-                        <Link
-                          key={item.id}
-                          to={`/product/${item.sourceCategory}/${item.id}`}
-                          onClick={() => {
-                            setShowSearch(false);
-                            setSearchTerm("");
-                          }}
-                          className="flex items-center gap-3 p-2 hover:bg-[#1a204d]"
-                        >
-                          <img
-                            src={getImageSrc(item)}
-                            alt={item.name}
-                            className="w-10 h-10 object-cover rounded"
-                          />
-                          <div>
-                            <p className="text-xs font-bold line-clamp-1">
-                              {item.name}
-                            </p>
-                            <p className="text-[10px] text-yellow-400">
-                              {item.price} AZN
-                            </p>
-                          </div>
-                        </Link>
-                      ))
+                      filteredResults.map((item) => {
+                        const locItem = getLocalizedProduct(item);
+                        return (
+                          <Link
+                            key={item.id}
+                            to={`/product/${item.sourceCategory}/${item.id}`}
+                            onClick={() => {
+                              setShowSearch(false);
+                              setSearchTerm("");
+                            }}
+                            className="flex items-center gap-3 p-2 hover:bg-[#1a204d]"
+                          >
+                            <img
+                              src={getImageSrc(locItem)}
+                              alt={locItem.name}
+                              className="w-10 h-10 object-cover rounded"
+                            />
+                            <div>
+                              <p className="text-xs font-bold line-clamp-1">
+                                {locItem.name}
+                              </p>
+                              <p className="text-[10px] text-yellow-400">
+                                {locItem.price.toString().includes("AZN") ? locItem.price : locItem.price + " AZN"}
+                              </p>
+                            </div>
+                          </Link>
+                        );
+                      })
                     ) : (
                       <p className="text-xs text-gray-400 text-center p-2">
-                        Nəticə tapılmadı
+                        {t("no_results")}
                       </p>
                     )}
                   </div>
@@ -197,13 +209,13 @@ const Navbar = () => {
                   to="/login"
                   className="block px-4 py-2 hover:bg-yellow-400 hover:text-black"
                 >
-                  Sign In
+                  {t("sign_in")}
                 </Link>
                 <Link
                   to="/register"
                   className="block px-4 py-2 hover:bg-yellow-400 hover:text-black"
                 >
-                  Sign Up
+                  {t("sign_up")}
                 </Link>
               </div>
             )}
@@ -247,14 +259,14 @@ const Navbar = () => {
               onClick={() => setMobileMenu(false)}
               className="block"
             >
-              Sign In
+              {t("sign_in")}
             </Link>
             <Link
               to="/register"
               onClick={() => setMobileMenu(false)}
               className="block"
             >
-              Sign Up
+              {t("sign_up")}
             </Link>
           </div>
         </div>

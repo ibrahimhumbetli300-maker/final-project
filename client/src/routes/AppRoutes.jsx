@@ -12,9 +12,10 @@ import Men from "../pages/Men";
 import Kids from "../pages/Kids";
 import Basket from "../pages/Basket";
 import Checkout from "../pages/Checkout";
+import Success from "../pages/Success";
 import Login from "../pages/Login";
 import Register from "../pages/Register";
-import ProductDetails from "../pages/ProductDetails"; 
+import ProductDetails from "../pages/ProductDetails";
 import Search from "../pages/Search";
 import Filter from "../pages/Filter";
 
@@ -29,16 +30,17 @@ const AppRoutes = () => {
         <Route path="/apparel" element={<Apparel />} />
         <Route path="/memorabilia" element={<Memorabilia />} />
         <Route path="/gifts" element={<Gifts />} />
-        
+
         <Route path="/men" element={<Men />} />
         <Route path="/kids" element={<Kids />} />
-        
+
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/basket" element={<Basket />} />
         <Route path="/checkout" element={<Checkout />} />
+        <Route path="/success" element={<Success />} />
 
-        
+
         <Route path="/product/:category/:id" element={<ProductDetails />} />
 
         <Route path="/search" element={<Search />} />

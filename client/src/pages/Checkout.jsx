@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import { useBasket } from "../context/BasketContext";
 import { useNavigate } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 const Checkout = () => {
   const { basket, getBasketTotal, clearBasket } = useBasket();
   const navigate = useNavigate();
+  const { t } = useTranslation();
 
   const [formData, setFormData] = useState({
     firstName: "",
@@ -23,7 +25,7 @@ const Checkout = () => {
   };
 
   const handleExpiryChange = (e) => {
-    let value = e.target.value.replace(/\D/g, ""); 
+    let value = e.target.value.replace(/\D/g, "");
 
     if (value.length >= 3) {
       value = value.slice(0, 2) + "/" + value.slice(2, 4);
@@ -35,13 +37,13 @@ const Checkout = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-  
+
     console.log("Sifariş məlumatları:", formData);
 
-  
+
     clearBasket();
 
-  
+
     navigate("/success");
   };
 
@@ -54,25 +56,25 @@ const Checkout = () => {
     <div className="w-full min-h-screen bg-gray-50 py-10 px-4 md:px-10">
       <div className="max-w-6xl mx-auto">
         <h1 className="text-3xl font-bold text-[#0b0f2f] mb-8 border-b pb-4">
-          CHECKOUT
+          {t('checkout_title')}
         </h1>
 
         <form
           onSubmit={handleSubmit}
           className="flex flex-col lg:flex-row gap-10"
         >
-         
+
           <div className="lg:w-2/3 space-y-8">
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <h2 className="text-xl font-bold text-[#0b0f2f] mb-6">
-                Contact Information
+                {t('contact_info')}
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <input
                   required
                   type="text"
                   name="firstName"
-                  placeholder="First Name"
+                  placeholder={t('first_name')}
                   className="border p-3 rounded w-full focus:outline-none focus:border-blue-900"
                   onChange={handleInputChange}
                 />
@@ -80,7 +82,7 @@ const Checkout = () => {
                   required
                   type="text"
                   name="lastName"
-                  placeholder="Last Name"
+                  placeholder={t('last_name')}
                   className="border p-3 rounded w-full focus:outline-none focus:border-blue-900"
                   onChange={handleInputChange}
                 />
@@ -88,7 +90,7 @@ const Checkout = () => {
                   required
                   type="email"
                   name="email"
-                  placeholder="Email Address"
+                  placeholder={t('email')}
                   className="border p-3 rounded w-full md:col-span-2 focus:outline-none focus:border-blue-900"
                   onChange={handleInputChange}
                 />
@@ -97,14 +99,14 @@ const Checkout = () => {
 
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <h2 className="text-xl font-bold text-[#0b0f2f] mb-6">
-                Shipping Address
+                {t('shipping_address')}
               </h2>
               <div className="space-y-4">
                 <input
                   required
                   type="text"
                   name="address"
-                  placeholder="Street Address"
+                  placeholder={t('street_address')}
                   className="border p-3 rounded w-full focus:outline-none focus:border-blue-900"
                   onChange={handleInputChange}
                 />
@@ -112,7 +114,7 @@ const Checkout = () => {
                   required
                   type="text"
                   name="city"
-                  placeholder="City"
+                  placeholder={t('city')}
                   className="border p-3 rounded w-full focus:outline-none focus:border-blue-900"
                   onChange={handleInputChange}
                 />
@@ -121,14 +123,14 @@ const Checkout = () => {
 
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <h2 className="text-xl font-bold text-[#0b0f2f] mb-6">
-                Payment Details
+                {t('payment_details')}
               </h2>
               <div className="grid grid-cols-2 gap-4">
                 <input
                   required
                   type="text"
                   name="cardNumber"
-                  placeholder="Card Number"
+                  placeholder={t('card_number')}
                   className="border p-3 rounded w-full col-span-2 focus:outline-none focus:border-blue-900"
                   onChange={handleInputChange}
                 />
@@ -136,7 +138,7 @@ const Checkout = () => {
                   required
                   type="text"
                   name="expiry"
-                  placeholder="MM/YY"
+                  placeholder={t('expiry_date')}
                   maxLength="5"
                   value={formData.expiry}
                   className="border p-3 rounded w-full focus:outline-none focus:border-blue-900"
@@ -146,7 +148,7 @@ const Checkout = () => {
                   required
                   type="password"
                   name="cvv"
-                  placeholder="CVV"
+                  placeholder={t('cvv')}
                   className="border p-3 rounded w-full focus:outline-none focus:border-blue-900"
                   onChange={handleInputChange}
                 />
@@ -154,11 +156,11 @@ const Checkout = () => {
             </div>
           </div>
 
-        
+
           <div className="lg:w-1/3">
             <div className="bg-white p-6 rounded-lg shadow-sm sticky top-24 border">
               <h2 className="text-xl font-bold text-[#0b0f2f] mb-6">
-                Order Summary
+                {t('order_summary')}
               </h2>
               <div className="space-y-4 mb-4 max-h-60 overflow-y-auto pr-2">
                 {basket.map((item) => (
@@ -182,11 +184,11 @@ const Checkout = () => {
               </div>
               <div className="border-t pt-4 space-y-2">
                 <div className="flex justify-between text-gray-600">
-                  <span>Subtotal</span>
+                  <span>{t('subtotal')}</span>
                   <span>${getBasketTotal()}</span>
                 </div>
                 <div className="flex justify-between font-bold text-lg text-[#0b0f2f] pt-2">
-                  <span>Total</span>
+                  <span>{t('total')}</span>
                   <span>${getBasketTotal()}</span>
                 </div>
               </div>
@@ -194,7 +196,7 @@ const Checkout = () => {
                 type="submit"
                 className="w-full bg-[#0b0f2f] text-white py-4 rounded font-bold mt-6 hover:bg-opacity-90 transition-all uppercase tracking-widest cursor-pointer"
               >
-                Place Order
+                {t('place_order')}
               </button>
             </div>
           </div>

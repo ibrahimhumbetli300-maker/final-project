@@ -1,8 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useBasket } from "../context/BasketContext";
+import { useTranslation } from "react-i18next";
+import { useLocalizedProduct } from "../hooks/useLocalizedProduct";
 
 const Men = () => {
+  const { t } = useTranslation();
+  const { getLocalizedProducts } = useLocalizedProduct();
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
 
@@ -26,6 +30,8 @@ const Men = () => {
     fetchBestSellers();
   }, []);
 
+  const localizedProducts = getLocalizedProducts(products);
+
   const handleAddToBasket = (e, product) => {
     e.preventDefault();
     addToBasket(product);
@@ -33,21 +39,21 @@ const Men = () => {
   };
 
   if (loading) {
-    return <p className="text-center py-20">Loading products...</p>;
+    return <p className="text-center py-20">{t('loading_products')}</p>;
   }
 
   return (
     <div className="w-full bg-white min-h-screen">
       <h1 className="text-[80px] p-[10px] font-extrabold transition-all duration-500 hover:bg-clip-text hover:text-transparent hover:bg-[linear-gradient(180deg,rgba(255,0,0,1)_3%,rgba(255,143,143,1)_48%,rgba(5,0,158,1)_84%)]">
-        MEN'S APPAREL
+        {t('mens_apparel').toUpperCase()}
       </h1>
       <div className="border-b-2 border-blue-900"></div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-4 gap-y-10 px-8 py-10">
-        {products.map((product) => (
+        {localizedProducts.map((product) => (
           <div key={product.id} className="group relative">
 
-           
+
             <Link to={`/product/men/${product.id}`} className="block">
               <div className="relative aspect-[3/4] bg-gray-100 mb-4 overflow-hidden">
                 <div
@@ -77,7 +83,7 @@ const Men = () => {
             <button
               onClick={(e) => handleAddToBasket(e, product)}
               className="mt-2 bg-blue-900 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors cursor-pointer relative z-10">
-              Add to Cart
+              {t('add_to_cart')}
             </button>
           </div>
         ))}

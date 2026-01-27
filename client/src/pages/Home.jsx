@@ -2,9 +2,11 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import { HiArrowRight } from "react-icons/hi2";
 import "../../../client/src/index.css";
+import { useTranslation } from "react-i18next";
 
 function Home() {
   const navigate = useNavigate();
+  const { t } = useTranslation();
 
   const handleShopNow = () => {
     navigate("/training");
@@ -39,18 +41,18 @@ function Home() {
 
         <div className="relative z-10 h-full flex flex-col justify-center items-center text-center text-white px-4">
           <h2 className="text-3xl tracking-widest text-yellow-300 mb-2">
-            SUPERCOPA
+            {t('supercopa')}
           </h2>
 
           <h1 className="text-2xl md:text-5xl text-yellow-400 font-extrabold mb-6">
-            CHAMPIONS
+            {t('champions')}
           </h1>
 
           <button
             onClick={handleShopNow}
             className="bg-yellow-500 text-black px-8 py-3 cursor-pointer font-bold rounded hover:bg-[#0b0f2f] hover:text-white transition  flex items-center gap-2"
           >
-            SHOP NOW TRAINING <HiArrowRight />
+            {t('shop_now_training')} <HiArrowRight />
           </button>
         </div>
       </section>
@@ -66,14 +68,14 @@ function Home() {
 
         <div className="relative z-10 h-full flex flex-col justify-center items-center text-center text-white px-4">
           <h1 className="text-2xl md:text-5xl text-white font-extrabold mb-13">
-            FC BARCELONA KITS
+            {t('fc_barcelona_kits')}
           </h1>
 
           <button
             onClick={handleShopNow2}
             className="bg-yellow-500 text-black px-8 py-3 cursor-pointer font-bold rounded hover:bg-[#0b0f2f] hover:text-white transition  flex items-center gap-2"
           >
-            SHOP NOW KITS <HiArrowRight />
+            {t('shop_now_kits')} <HiArrowRight />
           </button>
         </div>
       </section>
@@ -93,7 +95,7 @@ function Home() {
             <div className="absolute inset-0 bg-black/40"></div>
 
             <h2 className="absolute bottom-6 left-6 text-white text-3xl font-extrabold tracking-widest">
-              MEN'S APPAREL
+              {t('mens_apparel')}
             </h2>
           </div>
 
@@ -110,7 +112,7 @@ function Home() {
             <div className="absolute inset-0 bg-black/40"></div>
 
             <h2 className="absolute bottom-6 left-6 text-white text-3xl font-extrabold tracking-widest">
-              KIDS APPAREL
+              {t('kids_apparel')}
             </h2>
           </div>
         </div>
@@ -119,16 +121,16 @@ function Home() {
       <section className="w-full overflow-hidden py-4 my-6 border-t-2 border-b-2 border-white bg-transparent  flex">
         <div className="flex whitespace-nowrap animate-marquee">
           <span className="mx-12 text-5xl font-extrabold tracking-widest bg-gradient-to-r from-red-600 via-pink-400 to-blue-700 bg-clip-text text-transparent">
-            MES QUE UN CLUB <span> &#11044;</span>
+            {t('mes_que_un_club')} <span> &#11044;</span>
           </span>
           <span className="mx-12 text-5xl font-extrabold tracking-widest bg-gradient-to-r from-red-600 via-pink-400 to-blue-700 bg-clip-text text-transparent">
-            MES QUE UN CLUB <span> &#11044;</span>
+            {t('mes_que_un_club')} <span> &#11044;</span>
           </span>
           <span className="mx-12 text-5xl font-extrabold tracking-widest bg-gradient-to-r from-red-600 via-pink-400 to-blue-700 bg-clip-text text-transparent">
-            MES QUE UN CLUB <span> &#11044;</span>
+            {t('mes_que_un_club')} <span> &#11044;</span>
           </span>
           <span className="mx-12 text-5xl font-extrabold tracking-widest bg-gradient-to-r from-red-600 via-pink-400 to-blue-700 bg-clip-text text-transparent">
-            MES QUE UN CLUB <span className="logo"> &#11044;</span>
+            {t('mes_que_un_club')} <span className="logo"> &#11044;</span>
           </span>
         </div>
       </section>
@@ -144,14 +146,14 @@ function Home() {
 
         <div className="relative z-10 h-full flex flex-col justify-center items-center text-center text-white px-4">
           <h1 className="text-2xl md:text-5xl text-white font-extrabold mb-13">
-            BEST SELLERS
+            {t('best_sellers')}
           </h1>
 
           <button
             onClick={handleShopNow3}
             className="bg-yellow-500 text-black px-8 py-3 cursor-pointer font-bold rounded hover:bg-[#0b0f2f] hover:text-white transition  flex items-center gap-3"
           >
-            SHOP NOW BEST SELLERS <HiArrowRight />
+            {t('shop_now_best_sellers')} <HiArrowRight />
           </button>
         </div>
       </section>
