@@ -10,8 +10,8 @@ import "../index.css";
 
 const Footer = () => {
   return (
-    <div className="footer w-full h-16 bg-blue-900 text-white flex items-center justify-center text-sm font-black">
-      <p>&copy; FC Barcelona Official Store.</p>
+    <div className="footer w-full h-16 bg-blue-900 text-white flex items-center justify-center text-sm font-black ">
+      <p className="cursor-pointer hover:bg-[linear-gradient(180deg,rgba(255,0,0,1)_3%,rgba(255,143,143,1)_48%,rgba(5,0,158,1)_84%)]">&copy; FC Barcelona Official Store.</p>
 
       <div className="icon social-grid flex items-center ml-4 gap-4">
         <a
