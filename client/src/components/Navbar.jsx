@@ -74,10 +74,11 @@ const Navbar = () => {
     } else {
       setFilteredResults(
         allProducts
-          .filter((item) =>
-            item.name?.toLowerCase().includes(value) ||
-            item.name_es?.toLowerCase().includes(value) ||
-            item.name_az?.toLowerCase().includes(value)
+          .filter(
+            (item) =>
+              item.name?.toLowerCase().includes(value) ||
+              item.name_es?.toLowerCase().includes(value) ||
+              item.name_az?.toLowerCase().includes(value),
           )
           .slice(0, 5),
       );
@@ -122,9 +123,10 @@ const Navbar = () => {
               key={link.path}
               to={link.path}
               className={({ isActive }) =>
-                `h-full flex items-center border-b-2 ${isActive
-                  ? "border-yellow-400 text-white"
-                  : "border-transparent text-gray-300 hover:text-yellow-400"
+                `h-full flex items-center border-b-2 ${
+                  isActive
+                    ? "border-yellow-400 text-white"
+                    : "border-transparent text-gray-300 hover:text-yellow-400"
                 }`
               }
             >
@@ -179,7 +181,9 @@ const Navbar = () => {
                                 {locItem.name}
                               </p>
                               <p className="text-[10px] text-yellow-400">
-                                {locItem.price.toString().includes("AZN") ? locItem.price : locItem.price + " AZN"}
+                                {locItem.price.toString().includes("AZN")
+                                  ? locItem.price
+                                  : locItem.price + " AZN"}
                               </p>
                             </div>
                           </Link>

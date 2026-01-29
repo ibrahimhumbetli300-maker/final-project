@@ -6,11 +6,9 @@ export const useLocalizedProduct = () => {
     const getLocalizedProduct = (product) => {
         if (!product) return null;
 
-        const lang = i18n.language; // 'en', 'es', 'az'
+        const lang = i18n.language; 
 
-        // If language is English or default, return as is (assuming default is English)
-        // However, if we want to be strict, we check lang.
-
+       
         let name = product.name;
         let category = product.category;
         let tag = product.tag;
@@ -24,7 +22,7 @@ export const useLocalizedProduct = () => {
             category = product.category_az || product.category;
             tag = product.tag_az || product.tag;
         }
-        // 'en' usually falls back to the default fields which seem to be English in db.json
+  
 
         return {
             ...product,

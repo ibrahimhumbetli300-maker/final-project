@@ -1426,5 +1426,60 @@
       "totalAmount": "11499.00",
       "orderDate": "2026-01-25T10:09:13.517Z"
     }
+  ],
+  "orders": [
+    {
+      "id": "0637",
+      "customerInfo": {
+        "firstName": "Leylaxanım",
+        "lastName": "Məmmədova",
+        "email": "leyla08@gmail.com",
+        "address": "Bakı, Yasamal Ray.Y-Yasamal -2.7-Ci Alatava Küç.Ev.70.M.75",
+        "city": "Bakı",
+        "cardNumber": "423423423",
+        "expiry": "10/28",
+        "cvv": "333"
+      },
+      "items": [
+        {
+          "id": "2",
+          "name": "Jacket Barça Nike GX",
+          "price": "€79.99 EUR",
+          "img": "https://store.fcbarcelona.com/cdn/shop/files/FZ1281-431-PHSYM001.jpg?v=1767086605&width=1200",
+          "name_es": "Chaqueta Barça Nike GX",
+          "name_az": "Gödəkcəsi Barça Nike GX",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": "79.99",
+      "orderDate": "2026-01-28T10:34:11.856Z"
+    },
+    {
+      "id": "027d",
+      "customerInfo": {
+        "firstName": "Hümbətli",
+        "lastName": "İbrahim",
+        "email": "infomurad@gmail.com",
+        "address": "Bakı, Yasamal Ray.Y-Yasamal -2.7-Ci Alatava Küç.Ev.70.M.75",
+        "city": "Bakı",
+        "cardNumber": "4545 6465 6464 64",
+        "expiry": "09/29",
+        "cvv": "654"
+      },
+      "items": [
+        {
+          "id": "1",
+          "name": "Anthem jacket fourth Women's FC Barcelona 25/26 - Player's Edition",
+          "price": "€139.99 EUR",
+          "img": "https://store.fcbarcelona.com/cdn/shop/files/4Kit_SergiAlcazar_Ecom_023_1.jpg?v=1763724004&width=1200",
+          "name_es": "Anthem Chaqueta Cuarta de Mujer FC Barcelona 25/26 - Edición Jugador",
+          "name_az": "Anthem Gödəkcəsi Dördüncü Qadın FC Barcelona 25/26 - Oyunçu Versiyası",
+          "category": "training",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": "139.99",
+      "orderDate": "2026-01-29T09:41:52.978Z"
+    }
   ]
 }
