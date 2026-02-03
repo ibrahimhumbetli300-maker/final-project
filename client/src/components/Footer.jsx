@@ -5,13 +5,14 @@ import { AiFillTikTok } from "react-icons/ai";
 import { FaYoutube } from "react-icons/fa";
 import { FaSpotify } from "react-icons/fa";
 
-
 import "../index.css";
 
 const Footer = () => {
   return (
     <div className="footer w-full h-16 bg-blue-900 text-white flex items-center justify-center text-sm font-black ">
-      <p className="cursor-pointer hover:bg-[linear-gradient(180deg,rgba(255,0,0,1)_3%,rgba(255,143,143,1)_48%,rgba(5,0,158,1)_84%)]">&copy; FC Barcelona Official Store.</p>
+      <p className="cursor-pointer hover:bg-[linear-gradient(180deg,rgba(255,0,0,1)_3%,rgba(255,143,143,1)_48%,rgba(5,0,158,1)_84%)]">
+        &copy; FC Barcelona Official Store.
+      </p>
 
       <div className="icon social-grid flex items-center ml-4 gap-4">
         <a
@@ -56,25 +57,17 @@ const Footer = () => {
           rel="noopener noreferrer"
           className="cursor-pointer hover:text-red-500 transition"
         >
-
-            <FaYoutube size={24} />
+          <FaYoutube size={24} />
         </a>
 
-      
-       <a
+        <a
           href="https://open.spotify.com/user/31gorrj76f2m3wczoifm6f6tbn3q?si=a20bf0c076684729&nd=1"
           target="_blank"
           rel="noopener noreferrer"
           className="cursor-pointer hover:text-green-500 transition"
         >
-
-            <FaSpotify size={24} />
+          <FaSpotify size={24} />
         </a>
-
-
-
-
-
       </div>
     </div>
   );
