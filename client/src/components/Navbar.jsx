@@ -6,7 +6,7 @@ import {
   FaBars,
   FaTimes,
 } from "react-icons/fa";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { useBasket } from "../context/BasketContext";
 import { useTranslation } from "react-i18next";
 import LanguageSwitcher from "./LanguageSwitcher";
@@ -23,6 +23,25 @@ const Navbar = () => {
 
   const { getBasketCount } = useBasket();
   const navigate = useNavigate();
+
+  const searchRef = useRef(null);
+  const userRef = useRef(null);
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (searchRef.current && !searchRef.current.contains(event.target)) {
+        setShowSearch(false);
+      }
+      if (userRef.current && !userRef.current.contains(event.target)) {
+        setOpenUser(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
 
   const [searchTerm, setSearchTerm] = useState("");
   const [allProducts, setAllProducts] = useState([]);
@@ -123,10 +142,9 @@ const Navbar = () => {
               key={link.path}
               to={link.path}
               className={({ isActive }) =>
-                `h-full flex items-center border-b-2 ${
-                  isActive
-                    ? "border-yellow-400 text-white"
-                    : "border-transparent text-gray-300 hover:text-yellow-400"
+                `h-full flex items-center border-b-2 ${isActive
+                  ? "border-yellow-400 text-white"
+                  : "border-transparent text-gray-300 hover:text-yellow-400"
                 }`
               }
             >
@@ -138,7 +156,7 @@ const Navbar = () => {
         <div className="flex items-center gap-5 relative">
           <LanguageSwitcher />
 
-          <div className="relative">
+          <div className="relative" ref={searchRef}>
             <FaSearch
               size={18}
               className="cursor-pointer hover:text-yellow-400"
@@ -200,7 +218,7 @@ const Navbar = () => {
             )}
           </div>
 
-          <div className="relative hidden lg:block">
+          <div className="relative hidden lg:block" ref={userRef}>
             <FaUser
               size={18}
               className="cursor-pointer hover:text-yellow-400"
