@@ -3,44 +3,44 @@ import React, { createContext, useContext, useState, useEffect } from "react";
 const BasketContext = createContext();
 
 export const BasketProvider = ({ children }) => {
-    
+
     const [basket, setBasket] = useState(() => {
         const savedBasket = localStorage.getItem("basket");
         return savedBasket ? JSON.parse(savedBasket) : [];
     });
 
- 
+
     useEffect(() => {
         localStorage.setItem("basket", JSON.stringify(basket));
     }, [basket]);
 
-    const addToBasket = (product) => {
+    const addToBasket = (product, size = null) => {
         setBasket((prevBasket) => {
-            const existingItem = prevBasket.find((item) => item.id === product.id);
+            const existingItem = prevBasket.find((item) => item.id === product.id && item.size === size);
             if (existingItem) {
                 return prevBasket.map((item) =>
-                    item.id === product.id
+                    item.id === product.id && item.size === size
                         ? { ...item, quantity: item.quantity + 1 }
                         : item
                 );
             } else {
-                return [...prevBasket, { ...product, quantity: 1 }];
+                return [...prevBasket, { ...product, size, quantity: 1 }];
             }
         });
     };
 
-    const removeFromBasket = (productId) => {
-        setBasket((prevBasket) => prevBasket.filter((item) => item.id !== productId));
+    const removeFromBasket = (productId, size = null) => {
+        setBasket((prevBasket) => prevBasket.filter((item) => !(item.id === productId && item.size === size)));
     };
 
-    const updateQuantity = (productId, newQuantity) => {
+    const updateQuantity = (productId, size, newQuantity) => {
         if (newQuantity < 1) {
-            removeFromBasket(productId);
+            removeFromBasket(productId, size);
             return;
         }
         setBasket((prevBasket) =>
             prevBasket.map((item) =>
-                item.id === productId ? { ...item, quantity: newQuantity } : item
+                item.id === productId && item.size === size ? { ...item, quantity: newQuantity } : item
             )
         );
     };

@@ -34,8 +34,12 @@ const Men = () => {
 
   const handleAddToBasket = (e, product) => {
     e.preventDefault();
-    addToBasket(product);
-    navigate("/basket");
+    if (product.sizes) {
+      navigate(`/product/men/${product.id}`);
+    } else {
+      addToBasket(product);
+      navigate("/basket");
+    }
   };
 
   if (loading) {

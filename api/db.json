@@ -54,7 +54,14 @@
       "category_es": "MATCH COLLECTION",
       "category_az": "MATCH COLLECTION",
       "tag_es": "PLAYER'S SELECTION",
-      "tag_az": "PLAYER'S SELECTION"
+      "tag_az": "PLAYER'S SELECTION",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "2",
@@ -65,7 +72,14 @@
       "name_es": "UCL de Hombre Casa Camiseta 25/26 FC Barcelona",
       "name_az": "UCL Kişi Ev Forması 25/26 FC Barcelona",
       "category_es": "STADIUM COLLECTION",
-      "category_az": "STADIUM COLLECTION"
+      "category_az": "STADIUM COLLECTION",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "3",
@@ -76,7 +90,14 @@
       "name_es": "LAMINE YAMAL | UCL de Hombre Casa Camiseta 25/26 FC...",
       "name_az": "LAMINE YAMAL | UCL Kişi Ev Forması 25/26 FC...",
       "category_es": "STADIUM COLLECTION",
-      "category_az": "STADIUM COLLECTION"
+      "category_az": "STADIUM COLLECTION",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "4",
@@ -87,7 +108,14 @@
       "name_es": "PEDRI | UCL de Hombre Casa Camiseta 25/26 FC Barcelona",
       "name_az": "PEDRI | UCL Kişi Ev Forması 25/26 FC Barcelona",
       "category_es": "STADIUM COLLECTION",
-      "category_az": "STADIUM COLLECTION"
+      "category_az": "STADIUM COLLECTION",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "5",
@@ -101,7 +129,14 @@
       "category_es": "RETRO COLLECTION",
       "category_az": "RETRO COLLECTION",
       "tag_es": "BARÇA EXCLUSİVE",
-      "tag_az": "BARÇA EXCLUSİVE"
+      "tag_az": "BARÇA EXCLUSİVE",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "6",
@@ -112,7 +147,14 @@
       "name_es": "Tee retro Spotify Camp Nou",
       "name_az": "Tee retro Spotify Camp Nou",
       "category_es": "STADIUM COLLECTION",
-      "category_az": "STADIUM COLLECTION"
+      "category_az": "STADIUM COLLECTION",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "7",
@@ -123,7 +165,14 @@
       "name_es": "Sweatshirt Retro Navy 1899 - FC Barcelona",
       "name_az": "Sweatshirt Retro Navy 1899 - FC Barcelona",
       "category_es": "STADIUM COLLECTION",
-      "category_az": "STADIUM COLLECTION"
+      "category_az": "STADIUM COLLECTION",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "8",
@@ -134,7 +183,14 @@
       "name_es": "Sweatshirt Retro 1899",
       "name_az": "Sweatshirt Retro 1899",
       "category_es": "STADIUM COLLECTION",
-      "category_az": "STADIUM COLLECTION"
+      "category_az": "STADIUM COLLECTION",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "9",
@@ -156,7 +212,14 @@
       "name_es": "UCL de Hombre Visitante Camiseta 25/26 FC Barcelona x Kobe Bryant",
       "name_az": "UCL Kişi Səfər Forması 25/26 FC Barcelona x Kobe Bryant",
       "category_es": "STADIUM COLLECTION",
-      "category_az": "STADIUM COLLECTION"
+      "category_az": "STADIUM COLLECTION",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "11",
@@ -167,7 +230,14 @@
       "name_es": "UCL de Hombre Visitante Camiseta 25/26 FC Barcelona x Kobe Bryant - Edición Jugador",
       "name_az": "UCL Kişi Səfər Forması 25/26 FC Barcelona x Kobe Bryant - Oyunçu Versiyası",
       "category_es": "MATCH COLLECTION",
-      "category_az": "MATCH COLLECTION"
+      "category_az": "MATCH COLLECTION",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "12",
@@ -178,7 +248,14 @@
       "name_es": "LAMINE YAMAL | UCL de Hombre Visitante Camiseta 25/26 FC Barcelona x Kobe Bryant - Edición Jugador",
       "name_az": "LAMINE YAMAL | UCL Kişi Səfər Forması 25/26 FC Barcelona x Kobe Bryant - Oyunçu Versiyası",
       "category_es": "STADIUM COLLECTION",
-      "category_az": "STADIUM COLLECTION"
+      "category_az": "STADIUM COLLECTION",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "13",
@@ -200,7 +277,14 @@
       "category_es": "MATCH COLLECTION",
       "category_az": "MATCH COLLECTION",
       "tag_es": "PLAYER'S SELECTION",
-      "tag_az": "PLAYER'S SELECTION"
+      "tag_az": "PLAYER'S SELECTION",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "15",
@@ -216,7 +300,14 @@
       "price": "€89.99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/PHSFMG01-2000_73062da1-8dc1-4c1a-bc28-21fd82dd6aa6.jpg?v=1762763144&width=1200",
       "name_es": "Sudadera express Visitante FC Barcelona x Kobe Bryant Nike",
-      "name_az": "Hudisi express Səfər FC Barcelona x Kobe Bryant Nike"
+      "name_az": "Hudisi express Səfər FC Barcelona x Kobe Bryant Nike",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "17",
@@ -224,7 +315,14 @@
       "price": "€84.99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/PHSYMG01-2000_ad3f5113-e8d3-4b98-8a04-0e7a4ac4955b.jpg?v=1762761527&width=1200",
       "name_es": "Pant express Visitante FC Barcelona x Kobe Bryant Nike",
-      "name_az": "Pant express Səfər FC Barcelona x Kobe Bryant Nike"
+      "name_az": "Pant express Səfər FC Barcelona x Kobe Bryant Nike",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "18",
@@ -232,7 +330,14 @@
       "price": "€69.99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/VO250923A56021_med.jpg?v=1762862570&width=1200",
       "name_es": "FC Barcelona x Kobe Bryant Visitante Entrenamiento coach sweatshirt 25/26",
-      "name_az": "FC Barcelona x Kobe Bryant Səfər Məşq coach sweatshirt 25/26"
+      "name_az": "FC Barcelona x Kobe Bryant Səfər Məşq coach sweatshirt 25/26",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "19",
@@ -240,7 +345,14 @@
       "price": "€49.99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/IO4251-084_1.jpg?v=1763478699&width=1200",
       "name_es": "Entrenamiento Coach Camisa Visitante FC Barcelona x Kobe Bryant 25/26",
-      "name_az": "Məşq Coach Köynəyi Səfər FC Barcelona x Kobe Bryant 25/26"
+      "name_az": "Məşq Coach Köynəyi Səfər FC Barcelona x Kobe Bryant 25/26",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "20",
@@ -261,7 +373,14 @@
       "name_es": "Victory Tee Winners Supercup FC Barcelona 2026",
       "name_az": "Victory Tee Winners Supercup FC Barcelona 2026",
       "tag_es": "BARÇA EXCLUSİVE",
-      "tag_az": "BARÇA EXCLUSİVE"
+      "tag_az": "BARÇA EXCLUSİVE",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "2",
@@ -272,7 +391,14 @@
       "name_es": "SUPERCOPA de Hombre Cuarta Camiseta 25/26 FC Barcelona - Edición Jugador",
       "name_az": "SUPERCOPA Kişi Dördüncü Forması 25/26 FC Barcelona - Oyunçu Versiyası",
       "category_es": "MATCH COLLECTION",
-      "category_az": "MATCH COLLECTION"
+      "category_az": "MATCH COLLECTION",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "3",
@@ -283,7 +409,14 @@
       "name_es": "SUPERCOPA de Hombre Cuarta Camiseta 25/26 FC Barcelona - Edición Jugador",
       "name_az": "SUPERCOPA Kişi Dördüncü Forması 25/26 FC Barcelona - Oyunçu Versiyası",
       "category_es": "STADIUM COLLECTION",
-      "category_az": "STADIUM COLLECTION"
+      "category_az": "STADIUM COLLECTION",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "4",
@@ -294,7 +427,14 @@
       "name_es": "Lamine Yamal | SUPERCOPA de Hombre Cuarta Camiseta 25/26 FC Barcelona - Edición Jugador",
       "name_az": "Lamine Yamal | SUPERCOPA Kişi Dördüncü Forması 25/26 FC Barcelona - Oyunçu Versiyası",
       "category_es": "MATCH COLLECTION",
-      "category_az": "MATCH COLLECTION"
+      "category_az": "MATCH COLLECTION",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "5",
@@ -305,7 +445,14 @@
       "name_es": "UCL Junior Cuarta Camiseta 25/26 FC Barcelona",
       "name_az": "UCL Gənc Dördüncü Forması 25/26 FC Barcelona",
       "category_es": "PLAYER COLLECTION",
-      "category_az": "PLAYER COLLECTION"
+      "category_az": "PLAYER COLLECTION",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "6",
@@ -313,7 +460,14 @@
       "price": "€39.99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/Disenosintitulo_57.jpg?v=1763562158&width=1200",
       "name_es": "Junior Cuarta Short FC Barcelona 25/26",
-      "name_az": "Gənc Dördüncü Short FC Barcelona 25/26"
+      "name_az": "Gənc Dördüncü Short FC Barcelona 25/26",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "7",
@@ -324,7 +478,14 @@
       "name_es": "Younger Niños Cuarta Equipación FC Barcelona 25/26",
       "name_az": "Younger Uşaq Dördüncü Dəsti FC Barcelona 25/26",
       "category_es": "STADIUM COLLECTION",
-      "category_az": "STADIUM COLLECTION"
+      "category_az": "STADIUM COLLECTION",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "8",
@@ -335,7 +496,14 @@
       "name_es": "de Bebé Cuarta Equipación FC Barcelona 25/26",
       "name_az": "Körpə Dördüncü Dəsti FC Barcelona 25/26",
       "category_es": "STADIUM COLLECTION",
-      "category_az": "STADIUM COLLECTION"
+      "category_az": "STADIUM COLLECTION",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "9",
@@ -351,7 +519,14 @@
       "price": "€49.99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/20_11edcba9-f63c-4e4e-89f2-19aac0effe95.jpg?v=1753180328&width=1200",
       "name_es": "FC Barcelona Casa short 25/26",
-      "name_az": "FC Barcelona Ev short 25/26"
+      "name_az": "FC Barcelona Ev short 25/26",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "11",
@@ -365,7 +540,14 @@
       "category_es": "STADIUM COLLECTION",
       "category_az": "STADIUM COLLECTION",
       "tag_es": "5-15 YEARS",
-      "tag_az": "5-15 YEARS"
+      "tag_az": "5-15 YEARS",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "12",
@@ -376,7 +558,14 @@
       "name_es": "de Bebé Casa Equipación FC Barcelona 25/26",
       "name_az": "Körpə Ev Dəsti FC Barcelona 25/26",
       "category_es": "STADIUM COLLECTION",
-      "category_az": "STADIUM COLLECTION"
+      "category_az": "STADIUM COLLECTION",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "13",
@@ -387,7 +576,14 @@
       "name_es": "Younger Niños Casa Equipación 25/26 FC Barcelona",
       "name_az": "Younger Uşaq Ev Dəsti 25/26 FC Barcelona",
       "category_es": "STADIUM COLLECTION",
-      "category_az": "STADIUM COLLECTION"
+      "category_az": "STADIUM COLLECTION",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "14",
@@ -401,7 +597,14 @@
       "category_es": "MATCH COLLECTION",
       "category_az": "MATCH COLLECTION",
       "tag_es": "PLAYER'S SELECTION",
-      "tag_az": "PLAYER'S SELECTION"
+      "tag_az": "PLAYER'S SELECTION",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "15",
@@ -415,7 +618,14 @@
       "category_es": "STADIUM COLLECTION",
       "category_az": "STADIUM COLLECTION",
       "tag_es": "5-15 YEARS",
-      "tag_az": "5-15 YEARS"
+      "tag_az": "5-15 YEARS",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "16",
@@ -423,7 +633,14 @@
       "price": "€69.99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/BARC_A_KIDS_C1_LK_05_2386.jpg?v=1762258364&width=1200",
       "name_es": "Younger Niños Visitante Equipación 25/26 FC Barcelona x Kobe Bryant",
-      "name_az": "Younger Uşaq Səfər Dəsti 25/26 FC Barcelona x Kobe Bryant"
+      "name_az": "Younger Uşaq Səfər Dəsti 25/26 FC Barcelona x Kobe Bryant",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "17",
@@ -434,7 +651,14 @@
       "name_es": "UCL Junior goalkeeper Visitante Camiseta 25/26 FC Barcelona x Kobe Bryant",
       "name_az": "UCL Gənc goalkeeper Səfər Forması 25/26 FC Barcelona x Kobe Bryant",
       "category_es": "STADIUM COLLECTION",
-      "category_az": "STADIUM COLLECTION"
+      "category_az": "STADIUM COLLECTION",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "18",
@@ -448,7 +672,14 @@
       "category_es": "STADIUM COLLECTION",
       "category_az": "STADIUM COLLECTION",
       "tag_es": "5-15 YEARS",
-      "tag_az": "5-15 YEARS"
+      "tag_az": "5-15 YEARS",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "19",
@@ -462,7 +693,14 @@
       "category_es": "PLAYER SELECTION",
       "category_az": "PLAYER SELECTION",
       "tag_es": "PLAYER'S SELECTION",
-      "tag_az": "PLAYER'S SELECTION"
+      "tag_az": "PLAYER'S SELECTION",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "20",
@@ -470,7 +708,14 @@
       "price": "€69.99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/HM4134-855_415106079_D_A_1X1_2435a4bf-01aa-4ddd-a2ec-bda9728c78d2.jpg?v=1755580674&width=1200",
       "name_es": "Younger Niños Tercera Equipación 25/26 FC Barcelona T90",
-      "name_az": "Younger Uşaq Üçüncü Dəsti 25/26 FC Barcelona T90"
+      "name_az": "Younger Uşaq Üçüncü Dəsti 25/26 FC Barcelona T90",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     }
   ],
   "training": [
@@ -480,7 +725,14 @@
       "price": "€139.99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/4Kit_SergiAlcazar_Ecom_023_1.jpg?v=1763724004&width=1200",
       "name_es": "Anthem Chaqueta Cuarta de Mujer FC Barcelona 25/26 - Edición Jugador",
-      "name_az": "Anthem Gödəkcəsi Dördüncü Qadın FC Barcelona 25/26 - Oyunçu Versiyası"
+      "name_az": "Anthem Gödəkcəsi Dördüncü Qadın FC Barcelona 25/26 - Oyunçu Versiyası",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "2",
@@ -488,7 +740,14 @@
       "price": "€69.99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/Disenosintitulo_85.jpg?v=1767792760&width=1200",
       "name_es": "UCL de Hombre Casa Camiseta 25/26 FC Barcelona",
-      "name_az": "UCL Kişi Ev Forması 25/26 FC Barcelona"
+      "name_az": "UCL Kişi Ev Forması 25/26 FC Barcelona",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "3",
@@ -499,7 +758,14 @@
       "name_es": "Entrenamiento Pantalones FC Barcelona 25/26 Cuarta Equipación",
       "name_az": "Məşq Şalvarı FC Barcelona 25/26 Dördüncü Dəsti",
       "tag_es": "BARÇA EXCLUSİVE",
-      "tag_az": "BARÇA EXCLUSİVE"
+      "tag_az": "BARÇA EXCLUSİVE",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "4",
@@ -507,7 +773,14 @@
       "price": "74.99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/MGA7394_Easy-Resize.com.jpg?v=1767792437&width=1200",
       "name_es": "Entrenamiento Camisa FC Barcelona 25/26 Cuarta Equipación - Player’s Edition",
-      "name_az": "Məşq Köynəyi FC Barcelona 25/26 Dördüncü Dəsti - Player’s Edition"
+      "name_az": "Məşq Köynəyi FC Barcelona 25/26 Dördüncü Dəsti - Player’s Edition",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "5",
@@ -515,7 +788,14 @@
       "price": "€49.99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/AURORA_FZ1350-413_PHSFM001-2000.jpg?v=1767086420&width=1200",
       "name_es": "Entrenamiento Camisa FC Barcelona 25/26 Cuarta Equipación",
-      "name_az": "Məşq Köynəyi FC Barcelona 25/26 Dördüncü Dəsti"
+      "name_az": "Məşq Köynəyi FC Barcelona 25/26 Dördüncü Dəsti",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "6",
@@ -523,7 +803,14 @@
       "price": "€44.99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/AURORA_FZ1348-431_PHSYM001-2000.jpg?v=1767086293&width=1200",
       "name_es": "Entrenamiento Pantalones Cortos FC Barcelona 25/26 Cuarta Equipación",
-      "name_az": "Məşq Şortu FC Barcelona 25/26 Dördüncü Dəsti"
+      "name_az": "Məşq Şortu FC Barcelona 25/26 Dördüncü Dəsti",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "7",
@@ -531,7 +818,14 @@
       "price": "€59.99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/AURORA_FZ1415-431_PHSFM001-2000_1.jpg?v=1767085915&width=1200",
       "name_es": "Entrenamiento Pantalones Junior FC Barcelona 25/26 Cuarta Equipación",
-      "name_az": "Məşq Şalvarı Gənc FC Barcelona 25/26 Dördüncü Dəsti"
+      "name_az": "Məşq Şalvarı Gənc FC Barcelona 25/26 Dördüncü Dəsti",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "8",
@@ -542,7 +836,14 @@
       "name_es": "Tracksuit Younger Niños FC Barcelona 25/26 Cuarta Equipación",
       "name_az": "Tracksuit Younger Uşaq FC Barcelona 25/26 Dördüncü Dəsti",
       "tag_es": "BARÇA EXCLUSİVE",
-      "tag_az": "BARÇA EXCLUSİVE"
+      "tag_az": "BARÇA EXCLUSİVE",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "9",
@@ -550,7 +851,14 @@
       "price": "€69.99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/AURORA_FZ1352-413_PHSFM001-2000.jpg?v=1767086388&width=1200",
       "name_es": "Women FC Barcelona 25/26 Cuarta Equipación Entrenamiento Sweatshirt",
-      "name_az": "Women FC Barcelona 25/26 Dördüncü Dəsti Məşq Sweatshirt"
+      "name_az": "Women FC Barcelona 25/26 Dördüncü Dəsti Məşq Sweatshirt",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "10",
@@ -558,7 +866,14 @@
       "price": "€74.99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/VO250930A60488_med.jpg?v=1759308100&width=1200",
       "name_es": "Player's Entrenamiento Camisa FC Barcelona 25/26",
-      "name_az": "Player's Məşq Köynəyi FC Barcelona 25/26"
+      "name_az": "Player's Məşq Köynəyi FC Barcelona 25/26",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "11",
@@ -566,7 +881,14 @@
       "price": "€134.99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/587408975_18585312334023674_237200396213230687_n.jpg?v=1764070426&width=1200",
       "name_es": "de Hombre Chaqueta tech fleece Barça Nike - Navy",
-      "name_az": "Kişi Gödəkcəsi tech fleece Barça Nike - Navy"
+      "name_az": "Kişi Gödəkcəsi tech fleece Barça Nike - Navy",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "12",
@@ -574,7 +896,14 @@
       "price": "€139.99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/VO251103A79838_med.jpg?v=1762353934&width=1200",
       "name_es": "Tracksuit FC Barcelona 25/26",
-      "name_az": "Tracksuit FC Barcelona 25/26"
+      "name_az": "Tracksuit FC Barcelona 25/26",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "13",
@@ -582,7 +911,14 @@
       "price": "€64.99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/HJ8057-552_419290119_D_A_1X1_8be032ea-b548-4ff8-91ec-a6b864255c05.jpg?v=1751541178&width=1200",
       "name_es": "Tracksuit FC Barcelona 25/26 - Baby",
-      "name_az": "Tracksuit FC Barcelona 25/26 - Baby"
+      "name_az": "Tracksuit FC Barcelona 25/26 - Baby",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "14",
@@ -590,7 +926,14 @@
       "price": "€89.99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/HM3434-410-PHSFM001.jpg?v=1755522259&width=1200",
       "name_es": "Anthem Chaqueta Tercera FC Barcelona 25/26 T90 - Unisex",
-      "name_az": "Anthem Gödəkcəsi Üçüncü FC Barcelona 25/26 T90 - Unisex"
+      "name_az": "Anthem Gödəkcəsi Üçüncü FC Barcelona 25/26 T90 - Unisex",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "15",
@@ -598,7 +941,14 @@
       "price": "€79.99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/VO260108A14224_med.jpg?v=1767873457&width=1200",
       "name_es": "Pre-Match sweatshirt FC Barcelona Cuarta 25/26",
-      "name_az": "Pre-Match sweatshirt FC Barcelona Dördüncü 25/26"
+      "name_az": "Pre-Match sweatshirt FC Barcelona Dördüncü 25/26",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "16",
@@ -606,7 +956,14 @@
       "price": "€74.99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/HJ6411-010_1.jpg?v=1753693500&width=1200",
       "name_es": "Anthem Junior Chaqueta Visitante FC Barcelona x Kobe Bryant 25/26",
-      "name_az": "Anthem Gənc Gödəkcəsi Səfər FC Barcelona x Kobe Bryant 25/26"
+      "name_az": "Anthem Gənc Gödəkcəsi Səfər FC Barcelona x Kobe Bryant 25/26",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "17",
@@ -625,7 +982,14 @@
       "name_es": "FC Barcelona anthem Chaqueta Casa",
       "name_az": "FC Barcelona anthem Gödəkcəsi Ev",
       "category_es": "STADIUM COLLECTION",
-      "category_az": "STADIUM COLLECTION"
+      "category_az": "STADIUM COLLECTION",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "19",
@@ -636,7 +1000,14 @@
       "name_es": "FC Barcelona Entrenamiento sweatshirt 24/25- DRI-FIT ADV",
       "name_az": "FC Barcelona Məşq sweatshirt 24/25- DRI-FIT ADV",
       "category_es": "ADVANCED TECH",
-      "category_az": "ADVANCED TECH"
+      "category_az": "ADVANCED TECH",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "20",
@@ -644,7 +1015,14 @@
       "price": "€74.99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/VO250923A56019_med.jpg?v=1762775928&width=1200",
       "name_es": "FC Barcelona x Kobe Bryant Visitante Entrenamiento Camisa 25/26 - Edición Jugador",
-      "name_az": "FC Barcelona x Kobe Bryant Səfər Məşq Köynəyi 25/26 - Oyunçu Versiyası"
+      "name_az": "FC Barcelona x Kobe Bryant Səfər Məşq Köynəyi 25/26 - Oyunçu Versiyası",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     }
   ],
   "apparel": [
@@ -657,7 +1035,14 @@
       "name_es": "Light Chaqueta Retro 1899 Navy Fleece Barça",
       "name_az": "Light Gödəkcəsi Retro 1899 Navy Fleece Barça",
       "tag_es": "BARÇA EXCLUSİVE",
-      "tag_az": "BARÇA EXCLUSİVE"
+      "tag_az": "BARÇA EXCLUSİVE",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "2",
@@ -671,7 +1056,14 @@
       "category_es": "RETRO COLLECTION",
       "category_az": "RETRO COLLECTION",
       "tag_es": "BARÇA EXCLUSİVE",
-      "tag_az": "BARÇA EXCLUSİVE"
+      "tag_az": "BARÇA EXCLUSİVE",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "3",
@@ -682,7 +1074,14 @@
       "name_es": "Bomber Chaqueta Core - FC Barcelona",
       "name_az": "Bomber Gödəkcəsi Core - FC Barcelona",
       "tag_es": "BARÇA EXCLUSİVE",
-      "tag_az": "BARÇA EXCLUSİVE"
+      "tag_az": "BARÇA EXCLUSİVE",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "4",
@@ -690,7 +1089,14 @@
       "price": "€29.99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/HV5127-431-VPSFH001.jpg?v=1767087413&width=1200",
       "name_es": "Tee Women Barça Nike Supporter",
-      "name_az": "Tee Women Barça Nike Supporter"
+      "name_az": "Tee Women Barça Nike Supporter",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "5",
@@ -704,7 +1110,14 @@
       "category_es": "RETRO COLLECTION",
       "category_az": "RETRO COLLECTION",
       "tag_es": "BARÇA EXCLUSİVE",
-      "tag_az": "BARÇA EXCLUSİVE"
+      "tag_az": "BARÇA EXCLUSİVE",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "6",
@@ -712,7 +1125,14 @@
       "price": "€134.99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/MGA1324_Easy-Resize.com.jpg?v=1763387050&width=1200",
       "name_es": "Chaqueta Barça Nike",
-      "name_az": "Gödəkcəsi Barça Nike"
+      "name_az": "Gödəkcəsi Barça Nike",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "7",
@@ -723,7 +1143,14 @@
       "name_es": "Sweatshirt Retro Navy 1899 - FC Barcelona",
       "name_az": "Sweatshirt Retro Navy 1899 - FC Barcelona",
       "category_es": "STADIUM COLLECTION",
-      "category_az": "STADIUM COLLECTION"
+      "category_az": "STADIUM COLLECTION",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "8",
@@ -734,7 +1161,14 @@
       "name_es": "Sweatshirt Retro 1899",
       "name_az": "Sweatshirt Retro 1899",
       "category_es": "STADIUM COLLECTION",
-      "category_az": "STADIUM COLLECTION"
+      "category_az": "STADIUM COLLECTION",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "9",
@@ -742,7 +1176,14 @@
       "price": "€94.99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/PLAYERS_DAY_RETRO_0252.jpg?v=1765281265&width=1200",
       "name_es": "FC Barcelona 1899 Vintage Chaqueta",
-      "name_az": "FC Barcelona 1899 Vintage Gödəkcəsi"
+      "name_az": "FC Barcelona 1899 Vintage Gödəkcəsi",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "10",
@@ -750,7 +1191,14 @@
       "price": "€109.99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/HM3175-060-PHSFM001.jpg?v=1760704210&width=1200",
       "name_es": "Vest Barça Nike",
-      "name_az": "Vest Barça Nike"
+      "name_az": "Vest Barça Nike",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "11",
@@ -758,7 +1206,14 @@
       "price": "€69.99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/VO250729A22370_med.jpg?v=1753862228&width=1200",
       "name_es": "Polo crest slim Barça Nike",
-      "name_az": "Polo crest slim Barça Nike"
+      "name_az": "Polo crest slim Barça Nike",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "12",
@@ -766,7 +1221,14 @@
       "price": "€29.99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/HQ0916-677-PHSFM001.jpg?v=1767087266&width=1200",
       "name_es": "Tee Barça Nike",
-      "name_az": "Tee Barça Nike"
+      "name_az": "Tee Barça Nike",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "13",
@@ -785,7 +1247,14 @@
       "name_es": "Pant Atemporal Navy Wide - Women",
       "name_az": "Pant Atemporal Navy Wide - Women",
       "tag_es": "BARÇA EXCLUSİVE",
-      "tag_az": "BARÇA EXCLUSİVE"
+      "tag_az": "BARÇA EXCLUSİVE",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "15",
@@ -793,7 +1262,14 @@
       "price": "€74.99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/HM3126-595_1.jpg?v=1751011874&width=1200",
       "name_es": "Sudadera purple Barça Nike - Women",
-      "name_az": "Hudisi purple Barça Nike - Women"
+      "name_az": "Hudisi purple Barça Nike - Women",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "16",
@@ -801,7 +1277,14 @@
       "price": "€89.99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/PHSFMG01-2000_73062da1-8dc1-4c1a-bc28-21fd82dd6aa6.jpg?v=1762763144&width=1200",
       "name_es": "Sudadera express Visitante FC Barcelona x Kobe Bryant Nike",
-      "name_az": "Hudisi express Səfər FC Barcelona x Kobe Bryant Nike"
+      "name_az": "Hudisi express Səfər FC Barcelona x Kobe Bryant Nike",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "17",
@@ -809,7 +1292,14 @@
       "price": "€69.99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/cop.jpg?v=1755683926&width=1200",
       "name_es": "Polo navy crest slim Barça Nike",
-      "name_az": "Polo navy crest slim Barça Nike"
+      "name_az": "Polo navy crest slim Barça Nike",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "18",
@@ -820,7 +1310,14 @@
       "name_es": "Sudadera red Barça-Woman",
       "name_az": "Hudisi red Barça-Woman",
       "tag_es": "BARÇA EXCLUSİVE",
-      "tag_az": "BARÇA EXCLUSİVE"
+      "tag_az": "BARÇA EXCLUSİVE",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "19",
@@ -828,7 +1325,14 @@
       "price": "€219.99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/VO251124A91376_med.jpg?v=1763987934&width=1200",
       "name_es": "Parka Chaqueta Nike FC Barcelona",
-      "name_az": "Parka Gödəkcəsi Nike FC Barcelona"
+      "name_az": "Parka Gödəkcəsi Nike FC Barcelona",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "20",
@@ -839,7 +1343,14 @@
       "name_es": "Sudadera Core Navy \"MÉS QUE UN CLUB\"",
       "name_az": "Hudisi Core Navy \"MÉS QUE UN CLUB\"",
       "tag_es": "BARÇA EXCLUSİVE",
-      "tag_az": "BARÇA EXCLUSİVE"
+      "tag_az": "BARÇA EXCLUSİVE",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     }
   ],
   "memorabilia": [
@@ -1210,7 +1721,14 @@
       "price": "€134.99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/FZ1274-432-PHSYM001.jpg?v=1767086839&width=1200",
       "name_es": "Chaqueta tech fleece Barça Nike",
-      "name_az": "Gödəkcəsi tech fleece Barça Nike"
+      "name_az": "Gödəkcəsi tech fleece Barça Nike",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "2",
@@ -1218,7 +1736,14 @@
       "price": "€79.99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/FZ1281-431-PHSYM001.jpg?v=1767086605&width=1200",
       "name_es": "Chaqueta Barça Nike GX",
-      "name_az": "Gödəkcəsi Barça Nike GX"
+      "name_az": "Gödəkcəsi Barça Nike GX",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "3",
@@ -1226,7 +1751,14 @@
       "price": "€74.99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/FZ1282-431-PHSYM001.jpg?v=1767087094&width=1200",
       "name_es": "Pant blue Barça Nike GX",
-      "name_az": "Pant blue Barça Nike GX"
+      "name_az": "Pant blue Barça Nike GX",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "4",
@@ -1242,7 +1774,14 @@
       "price": "€69.99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/FZ1298-413-PHSFM001.jpg?v=1767087195&width=1200",
       "name_es": "Polo Barça Nike",
-      "name_az": "Polo Barça Nike"
+      "name_az": "Polo Barça Nike",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "6",
@@ -1250,7 +1789,14 @@
       "price": "€79.99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/IMG_6325.jpg?v=1737554661&width=1200",
       "name_es": "Sweatshirt Retro 1899",
-      "name_az": "Sweatshirt Retro 1899"
+      "name_az": "Sweatshirt Retro 1899",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "7",
@@ -1258,7 +1804,14 @@
       "price": "€219.99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/VO251124A91376_med.jpg?v=1763987934&width=1200",
       "name_es": "Parka Chaqueta Nike FC Barcelona",
-      "name_az": "Parka Gödəkcəsi Nike FC Barcelona"
+      "name_az": "Parka Gödəkcəsi Nike FC Barcelona",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "8",
@@ -1266,7 +1819,14 @@
       "price": "€134.99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/MGA1324_Easy-Resize.com.jpg?v=1763387050&width=1200",
       "name_es": "Chaqueta Barça Nike",
-      "name_az": "Gödəkcəsi Barça Nike"
+      "name_az": "Gödəkcəsi Barça Nike",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     }
   ],
   "kids": [
@@ -1276,7 +1836,14 @@
       "price": "€74.99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/FZ1288-431-PHSFM001.jpg?v=1767087465&width=1200",
       "name_es": "Tracksuit Junior FC Barcelona 25/26",
-      "name_az": "Tracksuit Gənc FC Barcelona 25/26"
+      "name_az": "Tracksuit Gənc FC Barcelona 25/26",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "2",
@@ -1287,7 +1854,14 @@
       "name_es": "Tracksuit Younger Niños FC Barcelona 25/26 Cuarta Equipación",
       "name_az": "Tracksuit Younger Uşaq FC Barcelona 25/26 Dördüncü Dəsti",
       "tag_es": "BARÇA EXCLUSİVE",
-      "tag_az": "BARÇA EXCLUSİVE"
+      "tag_az": "BARÇA EXCLUSİVE",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "3",
@@ -1298,7 +1872,14 @@
       "name_es": "FC Barcelona Hooded black softshell Chaqueta - Junior",
       "name_az": "FC Barcelona Hooded black softshell Gödəkcəsi - Gənc",
       "tag_es": "5-15 YEARS",
-      "tag_az": "5-15 YEARS"
+      "tag_az": "5-15 YEARS",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "4",
@@ -1309,7 +1890,14 @@
       "name_es": "Red Sudadera with Barça Crest - Junior",
       "name_az": "Red Hudisi with Barça Crest - Gənc",
       "tag_es": "BARÇA EXCLUSİVE",
-      "tag_az": "BARÇA EXCLUSİVE"
+      "tag_az": "BARÇA EXCLUSİVE",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "5",
@@ -1317,7 +1905,14 @@
       "price": "€24.99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/Bolet_Baixa-9457.jpg?v=1763978829&width=1200",
       "name_es": "T-Camisa Signature 25/26 - Junior",
-      "name_az": "T-Köynəyi Signature 25/26 - Gənc"
+      "name_az": "T-Köynəyi Signature 25/26 - Gənc",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "6",
@@ -1328,7 +1923,14 @@
       "name_es": "1995-97's Season Camiseta - Junior",
       "name_az": "1995-97's Season Forması - Gənc",
       "tag_es": "5-15 YEARS",
-      "tag_az": "5-15 YEARS"
+      "tag_az": "5-15 YEARS",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "7",
@@ -1336,7 +1938,14 @@
       "price": "€64.99 EUR",
       "img": "https://store.fcbarcelona.com/cdn/shop/files/AURORA_HM3662-084_PHSYM001-2000.jpg?v=1764080279&width=1200",
       "name_es": "Sudadera Junior Barça Nike",
-      "name_az": "Hudisi Gənc Barça Nike"
+      "name_az": "Hudisi Gənc Barça Nike",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "id": "8",
@@ -1347,7 +1956,14 @@
       "name_es": "Chaqueta with hood purple Barça Nike - Junior",
       "name_az": "Gödəkcəsi with hood purple Barça Nike - Gənc",
       "tag_es": "5-15 YEARS",
-      "tag_az": "5-15 YEARS"
+      "tag_az": "5-15 YEARS",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     }
   ],
   "basket": [
@@ -1623,6 +2239,70 @@
       ],
       "totalAmount": "149.99",
       "orderDate": "2026-02-07T22:35:10.748Z"
+    },
+    {
+      "id": "1592",
+      "customerInfo": {
+        "firstName": "Nicat",
+        "lastName": "Esgerov",
+        "email": "nicat.esgr234@gmail.com",
+        "address": "Ehmedli Qesebesi",
+        "city": "Bakı",
+        "cardNumber": "5239 1517 3456 4582",
+        "expiry": "10/28",
+        "cvv": "540"
+      },
+      "items": [
+        {
+          "id": "4",
+          "name": "Backpack navy barça Nike 25/26",
+          "price": "€39.99 EUR",
+          "img": "https://store.fcbarcelona.com/cdn/shop/files/HV3353-400_U_FA25_EQUIPMENT_PHSFP001.jpg?v=1751549058&width=1200",
+          "name_es": "Mochila navy barça Nike 25/26",
+          "name_az": "Kürək Çantası navy barça Nike 25/26",
+          "category": "gifts",
+          "quantity": 1
+        },
+        {
+          "id": "5",
+          "tag": "SIGNED PRODUCT",
+          "name": "XAVI | Xavi Hernandez official shirt from the 21/22 season FC Barcelona Home Kit with signature",
+          "price": "€999.99 EUR",
+          "img": "https://store.fcbarcelona.com/cdn/shop/products/700x1060-74858-1_e459d9e7-5d56-443b-8a73-64d75c230a58.jpg?v=1680012163&width=1200",
+          "name_es": "XAVI | Xavi Hernandez official Camisa from the 21/22 season FC Barcelona Casa Equipación with signature",
+          "name_az": "XAVI | Xavi Hernandez official Köynəyi from the 21/22 season FC Barcelona Ev Dəsti with signature",
+          "tag_es": "Firmado PRODUCT",
+          "tag_az": "İmzalı PRODUCT",
+          "category": "memorabilia",
+          "quantity": 1
+        },
+        {
+          "id": "11",
+          "name": "Men's jacket tech fleece Barça Nike - Navy",
+          "price": "€134.99 EUR",
+          "img": "https://store.fcbarcelona.com/cdn/shop/files/587408975_18585312334023674_237200396213230687_n.jpg?v=1764070426&width=1200",
+          "name_es": "de Hombre Chaqueta tech fleece Barça Nike - Navy",
+          "name_az": "Kişi Gödəkcəsi tech fleece Barça Nike - Navy",
+          "quantity": 1
+        },
+        {
+          "id": "1",
+          "tag": "PLAYER'S SELECTION",
+          "category": "MATCH COLLECTION",
+          "name": "UCL Men's home jersey 25/26 FC Barcelona - Player's",
+          "price": "€164.99 EUR",
+          "img": "https://store.fcbarcelona.com/cdn/shop/files/Mainbannermobile.jpg?v=1751433997&width=1200",
+          "name_es": "UCL de Hombre Casa Camiseta 25/26 FC Barcelona - Player's",
+          "name_az": "UCL Kişi Ev Forması 25/26 FC Barcelona - Player's",
+          "category_es": "MATCH COLLECTION",
+          "category_az": "MATCH COLLECTION",
+          "tag_es": "PLAYER'S SELECTION",
+          "tag_az": "PLAYER'S SELECTION",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": "1339.96",
+      "orderDate": "2026-02-16T11:19:37.783Z"
     }
   ]
 }

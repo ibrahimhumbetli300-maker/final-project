@@ -34,8 +34,12 @@ const Kits = () => {
 
   const handleAddToCart = (e, product) => {
     e.preventDefault();
-    addToBasket(product);
-    navigate("/basket");
+    if (product.sizes) {
+      navigate(`/product/kits/${product.id}`);
+    } else {
+      addToBasket(product);
+      navigate("/basket");
+    }
   };
 
   if (loading) {

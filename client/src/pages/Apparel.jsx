@@ -34,8 +34,12 @@ const Apparel = () => {
 
   const handleAddToCart = (e, product) => {
     e.preventDefault();
-    addToBasket(product);
-    navigate("/basket");
+    if (product.sizes) {
+      navigate(`/product/apparel/${product.id}`);
+    } else {
+      addToBasket(product);
+      navigate("/basket");
+    }
   };
 
   if (loading) {

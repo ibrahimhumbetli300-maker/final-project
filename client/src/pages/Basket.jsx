@@ -50,7 +50,7 @@ const Basket = () => {
           <div className="lg:w-2/3 space-y-6">
             {localizedBasket.map((item) => (
               <div
-                key={item.id}
+                key={`${item.id}-${item.size || 'default'}`}
                 className="bg-white p-6 rounded-lg shadow-sm flex flex-col sm:flex-row items-center gap-6"
               >
                 <div className="w-full sm:w-32 h-32 bg-gray-100 rounded-md overflow-hidden flex-shrink-0">
@@ -70,13 +70,18 @@ const Basket = () => {
                       {item.name}
                     </h3>
                     <p className="text-blue-900 font-bold">{item.price}</p>
+                    {item.size && (
+                      <p className="text-sm font-bold text-gray-600">
+                        {t('size') || 'Size'}: {item.size}
+                      </p>
+                    )}
                   </div>
 
                   <div className="flex items-center justify-between sm:justify-end gap-6">
                     <div className="flex items-center border border-gray-300 rounded">
                       <button
                         onClick={() =>
-                          updateQuantity(item.id, item.quantity - 1)
+                          updateQuantity(item.id, item.size, item.quantity - 1)
                         }
                         className="px-3 py-1 hover:bg-gray-100 text-gray-600 cursor-pointer disabled:opacity-30"
                         disabled={item.quantity <= 1}
@@ -88,7 +93,7 @@ const Basket = () => {
                       </span>
                       <button
                         onClick={() =>
-                          updateQuantity(item.id, item.quantity + 1)
+                          updateQuantity(item.id, item.size, item.quantity + 1)
                         }
                         className="px-3 py-1 hover:bg-gray-100 text-gray-600 cursor-pointer"
                       >
@@ -97,7 +102,7 @@ const Basket = () => {
                     </div>
 
                     <button
-                      onClick={() => removeFromBasket(item.id)}
+                      onClick={() => removeFromBasket(item.id, item.size)}
                       className="text-red-500 hover:text-red-700 p-2 transition-colors cursor-pointer"
                       title="Remove item"
                     >

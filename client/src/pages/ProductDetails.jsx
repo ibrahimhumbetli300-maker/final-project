@@ -11,6 +11,8 @@ const ProductDetails = () => {
   const { category, id } = useParams();
   const navigate = useNavigate();
   const { addToBasket } = useBasket();
+  const [selectedSize, setSelectedSize] = useState("");
+  const [sizeError, setSizeError] = useState(false);
 
   const [product, setProduct] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -48,7 +50,11 @@ const ProductDetails = () => {
 
   const handleAddToCart = () => {
     if (product) {
-      addToBasket(product);
+      if (product.sizes && !selectedSize) {
+        setSizeError(true);
+        return;
+      }
+      addToBasket(product, selectedSize);
       navigate("/basket");
     }
   };
@@ -93,6 +99,34 @@ const ProductDetails = () => {
           <p className="text-3xl text-blue-900 font-bold mb-6">
             {localizedProduct?.price}
           </p>
+
+          {localizedProduct?.sizes && (
+            <div className="mb-6">
+              <p className="font-bold mb-2 text-gray-800">{t('select_size') || 'Select Size'}:</p>
+              <div className="flex flex-wrap gap-2">
+                {localizedProduct.sizes.map((size) => (
+                  <button
+                    key={size}
+                    onClick={() => {
+                      setSelectedSize(size);
+                      setSizeError(false);
+                    }}
+                    className={`px-4 py-2 border rounded-md font-medium transition-all duration-200 ${selectedSize === size
+                        ? "bg-[#0b0f2f] text-white border-[#0b0f2f]"
+                        : "bg-white text-gray-700 border-gray-300 hover:border-[#0b0f2f]"
+                      }`}
+                  >
+                    {size}
+                  </button>
+                ))}
+              </div>
+              {sizeError && (
+                <p className="text-red-500 text-sm mt-2 font-medium">
+                  {t('please_select_size') || 'Please select a size'}
+                </p>
+              )}
+            </div>
+          )}
 
           <button onClick={handleAddToCart} className="bg-[#0b0f2f] text-white py-4 px-10 rounded-lg cursor-pointer flex items-center gap-2 justify-center hover:bg-yellow-500 hover:text-black transition duration-300 shadow-lg">
             {t('add_to_basket')} <HiShoppingBag />

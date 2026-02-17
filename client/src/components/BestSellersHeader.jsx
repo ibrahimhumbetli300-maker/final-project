@@ -34,9 +34,13 @@ const BestSellers = () => {
 
   const handleAddToCart = (e, product) => {
     e.preventDefault();
-    addToBasket(product);
-    console.log("Məhsul əlavə edildi:", product);
-    navigate("/basket");
+    if (product.sizes) {
+      navigate(`/product/bestsellers/${product.id}`);
+    } else {
+      addToBasket(product);
+      console.log("Məhsul əlavə edildi:", product);
+      navigate("/basket");
+    }
   };
 
   if (loading) {
