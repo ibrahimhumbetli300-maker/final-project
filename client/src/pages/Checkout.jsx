@@ -36,7 +36,6 @@ const Checkout = () => {
 
     setFormData({ ...formData, cardNumber: value });
   };
- 
 
   const handleExpiryChange = (e) => {
     let value = e.target.value.replace(/\D/g, "");

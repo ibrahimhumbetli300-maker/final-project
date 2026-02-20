@@ -22,27 +22,26 @@ function Login() {
     e.preventDefault();
 
     if (!formData.email || !formData.password) {
-      alert(t('email_password_empty'));
+      alert(t("email_password_empty"));
       return;
     }
 
     try {
       const res = await fetch(
-        `http://localhost:3000/users?email=${formData.email}&password=${formData.password}`
+        `http://localhost:3000/users?email=${formData.email}&password=${formData.password}`,
       );
       const data = await res.json();
 
       if (data.length > 0) {
-
         localStorage.setItem("user", JSON.stringify(data[0]));
 
         navigate("/");
       } else {
-        alert(t('email_password_wrong'));
+        alert(t("email_password_wrong"));
       }
     } catch (error) {
       console.error(error);
-      alert(t('server_error'));
+      alert(t("server_error"));
     }
   };
 
@@ -56,34 +55,34 @@ function Login() {
             className="w-25 h-25"
           />
           <h1 className="text-xl font-semibold">
-            BARÇA <span className="font-light">{t('official_store')}</span>
+            BARÇA <span className="font-light">{t("official_store")}</span>
           </h1>
-          <p className="text-sm text-gray-600">{t('spotify_camp_nou')}</p>
+          <p className="text-sm text-gray-600">{t("spotify_camp_nou")}</p>
         </div>
 
-        <p className="text-sm mb-6">{t('enter_login_info')}</p>
+        <p className="text-sm mb-6">{t("enter_login_info")}</p>
 
         <form onSubmit={handleSubmit} className="space-y-4 text-left">
           <div>
-            <label className="text-sm font-medium">{t('email')}</label>
+            <label className="text-sm font-medium">{t("email")}</label>
             <input
               type="email"
               name="email"
               value={formData.email}
               onChange={handleChange}
-              placeholder={t('email')}
+              placeholder={t("email")}
               className="w-full border rounded-md px-4 py-2"
             />
           </div>
 
           <div>
-            <label className="text-sm font-medium">{t('password')}</label>
+            <label className="text-sm font-medium">{t("password")}</label>
             <input
               type="password"
               name="password"
               value={formData.password}
               onChange={handleChange}
-              placeholder={t('password')}
+              placeholder={t("password")}
               className="w-full border rounded-md px-4 py-2"
             />
           </div>
@@ -92,7 +91,7 @@ function Login() {
             type="submit"
             className="w-full bg-yellow-400 hover:bg-yellow-500 py-3 font-semibold rounded-md"
           >
-            {t('sign_in').toUpperCase()}
+            {t("sign_in").toUpperCase()}
           </button>
         </form>
 
@@ -100,7 +99,7 @@ function Login() {
           href="/register"
           className="block mt-6 font-semibold underline text-center"
         >
-          {t('create_account')}
+          {t("create_account")}
         </a>
       </div>
     </div>
